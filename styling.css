@@ -1,7 +1,25 @@
+h1 {
+    text-align: center;
+}
+
 body {
     background-color: #cccccc;
 }
 
 p {
-    background-image: "/home/isak/Pictures/tuxstarwars.jpg"
+    background-image: '/home/isak/Pictures/tuxstarwars.jpg'
+}
+
+button {
+    border-radius: 10px;
+    border-color: #000;
+    background-color: transparent;
+    box-shadow: blue;
+    align-items: center;
+    position: relative;
+}
+
+button:hover {
+    transition-duration: 4s;
+    background-color: blue;
 }
