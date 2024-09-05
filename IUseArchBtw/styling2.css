@@ -1,0 +1,101 @@
+* {
+    font-family: Hack, Helvetica, Arial, sans-serif;
+  }
+ 
+  .meny_topp {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+  }
+ 
+  html {
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 1.5em;
+  }
+ 
+
+/*Side 2 biografi*/
+
+#biography {
+    width: 40%;
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+#bio2 {
+    text-align: start;
+}
+
+#isak {
+    width: 40%; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+#isak2 {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/*Automatisk sjekk av default color-themeen til nettleseren*/
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333333;
+      color: white;
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: aliceblue;
+      color: black;
+    }
+    div.gallery {
+      border-color: black;
+    }
+    div.gallery:hover {
+      border: 5px solid black;
+    }
+    .light-mode {
+      background-color: #333333;
+      color: aliceblue;
+    }
+  }
+  
+
+/*Styling av knapper*/
+
+button {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    background-color: #dddddd;
+    cursor: pointer;
+    position: relative;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+  }
+ 
+  button:hover {
+    border-radius: 10px;
+    transition: 0;
+    background-color: #bebdbd;
+    border-radius: 12px;
+  }
+ 
+  button:active {
+    background-color: #adabab;
+    transition: 0.5s;
+  }
+
+/**/
