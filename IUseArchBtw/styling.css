@@ -1,12 +1,14 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Hack, Helvetica, Arial, sans-serif;
 }
 
 .meny_topp {
   background-color: #000000;
   text-align: center;
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 1.5em;
 }
 
 html {
