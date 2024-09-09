@@ -1,5 +1,5 @@
 * {
-  font-family: Hack, Helvetica, Arial, sans-serif;
+  font-family: HackFont, Helvetica, Arial, sans-serif;
 }
 
 .meny_topp {
@@ -69,6 +69,12 @@ html {
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+/* Hack font */
+@font-face {
+  font-family: HackFont;
+  src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
 }
 
   div.gallery {
