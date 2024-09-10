@@ -8,6 +8,37 @@
   padding: 10px;
   margin: 0 auto;
   width: 100%;
+  height: 2em;
+}
+
+#togglelight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: aliceblue;
+  border-radius: 50px;
+  font-size: 1em;
+}
+
+#hjemknapp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: aliceblue;
+  border-radius: 50px;
+  font-size: 1em;
+}
+
+#social {
+  color: black;
+  padding: 10px;
+  margin: auto 0;
+  font-size: 2em;
+}
+
+#social:hover {
+  color: #009578;
+  transition: 0.5s;
 }
 
 html {
