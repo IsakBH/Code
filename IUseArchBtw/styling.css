@@ -30,12 +30,12 @@ body {
 }
 
 #togglelight {
-  position: absolute;
-  top: 0;
-  right: 0;
+  border-radius: 20px;
   background-color: aliceblue;
-  border-radius: 50px;
-  font-size: 1em;
+}
+
+#togglelight:hover {
+  background-color: rgb(204, 212, 219);
 }
 
 #hjemknapp {
@@ -57,6 +57,25 @@ body {
 #social:hover {
   color: #009578;
   transition: 0.5s;
+}
+
+
+#galleriknapp {
+  background-color: aliceblue;
+}
+
+#galleriknapp:hover {
+  background-color: rgb(204, 212, 219);
+}
+
+
+.meny_topp_høyre {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50px;
+  font-size: 1em;
+  background-color: aliceblue;
 }
 
 h1 {
@@ -201,20 +220,21 @@ button:active {
 
   div.gallery {
     border-color: black;
-  }
+  
 
   div.gallery:hover {
     border: 5px solid black;
   }
+}
 
-  .light-mode {
-    background-color: #333333;
-    color: aliceblue;
-  }
+.light-mode {
+  background-color: #333333;
+  color: aliceblue;
 
-  .meny_topp {
-    background-color: rgb(225, 237, 248);
-  }
+}
+
+.meny_topp {
+  background-color: rgb(225, 237, 248);
 }
 
 #bio {
@@ -222,4 +242,6 @@ button:active {
   padding: 0 8px;
   width: 50%;
   margin: 0 auto;
+}
+
 }
