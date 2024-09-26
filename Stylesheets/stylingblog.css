@@ -1,0 +1,266 @@
+/* Essentials */
+* {
+    font-family: HackFont, Helvetica, Arial, sans-serif;
+}
+
+html {
+    color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 3s;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #333;
+    padding: 5;
+    margin: 0;
+}
+
+/* Navigation bar */
+.meny_topp {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 2em;
+}
+
+#togglelight {
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+#togglelight:hover {
+    background-color: rgb(204, 212, 219);
+}
+
+#hjemknapp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    border-radius: 50px;
+    font-size: 1em;
+}
+
+#hjemknapp:hover {
+    background-color: rgb(204, 212, 219);
+}
+
+#social {
+    color: black;
+    padding: 10px;
+    margin: auto 0;
+    font-size: 2em;
+    border-radius: 50px;
+    height: 2em;
+}
+
+#social:hover {
+    /*color: #009578;*/
+    background-color: rgb(204, 212, 219);
+    transition: 0.5s;
+    padding: 0;
+}
+
+
+#galleriknapp {
+    background-color: aliceblue;
+}
+
+#galleriknapp:hover {
+    background-color: rgb(204, 212, 219);
+}
+
+
+.meny_topp_høyre {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+    font-size: 1em;
+    background-color: aliceblue;
+}
+
+h1 {
+    margin: 5px 0 0 0;
+    padding: 0px;
+    text-align: center;
+}
+
+hr {
+    color: white;
+}
+
+button {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    background-color: #dddddd;
+    cursor: pointer;
+    position: relative;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #bebdbd;
+    border-radius: 12px;
+}
+
+button:active {
+    background-color: #009578;
+    transition: 0.5s;
+}
+
+
+.advarsel {
+    color: #009578;
+    text-align: center;
+    position: center;
+    margin: 0 auto;
+}
+
+.Ã¸verst {
+    text-align: center;
+}
+
+.etterÃ¸verst {
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    padding: 0 8px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#description {
+    width: 200%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#millie-bilde {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* CSS Fade In Animation*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#videoembeds {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hotline {
+    width: 100%;
+    margin-top: 0;
+}
+
+#ikkevarm {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.light-mode {
+    background-color: aliceblue;
+    color: black;
+    animation: fadeIn 0.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: white;
+    }
+
+    .meny_topp {
+        background-color: aliceblue;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: aliceblue;
+        color: black;
+    }
+
+    @font-face {
+        font-family: HackFont;
+        src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
+    }
+
+    div.gallery {
+        border-color: black;
+
+
+        div.gallery:hover {
+            border: 5px solid black;
+        }
+    }
+
+    .light-mode {
+        background-color: #333333;
+        color: aliceblue;
+
+    }
+
+    .meny_topp {
+        background-color: rgb(225, 237, 248);
+    }
+
+    #bio {
+        display: flex;
+        padding: 0 8px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    hr {
+        width: 40%;
+        font-weight: bolder;
+    }
+
+    /* BLOG POSTS */
+
+
+
+    #blog {
+        line-height: 0;
+        column-count: 2;
+        column-gap: 5px;
+        width: 75%;
+        margin: 20px auto 20px auto;
+    }
+
+    #blog img {
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 5px;
+    }
+}
