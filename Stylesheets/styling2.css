@@ -47,6 +47,10 @@ body {
   font-size: 1em;
 }
 
+#hjemknapp:hover {
+  background-color: rgb(204, 212, 219);
+}
+
 #social {
   color: black;
   padding: 10px;
@@ -87,7 +91,7 @@ body {
 #biography {
   width: 35%;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 
 #bio2 {
@@ -182,19 +186,14 @@ button {
   color: #000;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1em;
 }
 
 button:hover {
   border-radius: 10px;
-  transition: 0;
+  transition: 0.5s;
   background-color: #bebdbd;
   border-radius: 12px;
-}
-
-button:active {
-  background-color: #adabab;
-  transition: 0.5s;
+  transform: scale(1.2);
 }
 
 /**/
