@@ -129,22 +129,21 @@ button:active {
 #gallery {
   line-height: 0;
   column-count: 5;
-  column-gap: 5p  x;
+  column-gap: 5px;
 }
 
 #gallery img {
   width: 100% !important;
   height: auto !important;
-  margin-bottom: 5px;
   border-radius: 5px;
+  margin-top: 5px;
   filter: brightness(1);
-  z-index: 10000;
 }
 
 #galleribilde:hover {
   transform: scale(1.1);
   filter: brightness(1.2);
-  z-index: 1000000000000;
+  z-index: 1;
 }
 
 #galleribilde:active {
@@ -189,8 +188,6 @@ button:active {
   transition: 0.5s;
 }
 
-
-
 /* CSS Fade In Animation*/
 @keyframes fadeIn {
   0% {
@@ -224,7 +221,6 @@ button:active {
 .light-mode {
   background-color: aliceblue;
   color: black;
-  animation: fadeIn 0.5s;
 }
 
 @media (prefers-color-scheme: dark) {

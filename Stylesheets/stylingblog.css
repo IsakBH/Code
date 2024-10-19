@@ -74,7 +74,6 @@ body {
     padding: 0;
 }
 
-
 #galleriknapp {
     background-color: aliceblue;
     z-index: 100000;
@@ -83,7 +82,6 @@ body {
 #galleriknapp:hover {
     background-color: rgb(204, 212, 219);
 }
-
 
 .meny_topp_høyre {
     position: absolute;
@@ -102,10 +100,6 @@ h1 {
     text-align: center;
 }
 
-hr {
-    color: white;
-}
-
 button {
     padding: 15px 40px;
     border: none;
@@ -119,91 +113,138 @@ button {
     color: #000;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     border-radius: 10px;
     transition: 0.5s;
     background-color: #bebdbd;
     border-radius: 12px;
-    transform: scale(1.3);
-  }
+    transform: scale(1.1);
+}
 
 button:active {
     background-color: #009578;
     transition: 0.5s;
 }
 
+.light-mode {
+    background-color: #333333;
+    color: aliceblue;
 
-.advarsel {
-    color: #009578;
-    text-align: center;
-    position: center;
-    margin: 0 auto;
 }
 
-.Ã¸verst {
-    text-align: center;
+.meny_topp {
+    background-color: rgb(225, 237, 248);
 }
 
-.etterÃ¸verst {
-    text-align: center;
-}
-
-#about {
+#bio {
     display: flex;
     padding: 0 8px;
     width: 50%;
     margin: 0 auto;
 }
 
-#description {
-    width: 200%;
-    margin: 0 auto;
-    text-align: left;
+hr {
+    width: 40%;
+    font-weight: bolder;
 }
 
-#millie-bilde {
-    width: 100%;
-    border-radius: 5px;
-}
-
-/* CSS Fade In Animation*/
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-#videoembeds {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#hotline {
-    width: 100%;
-    margin-top: 0;
-}
-
-#ikkevarm {
-    width: 100%;
-    border-radius: 5px;
-}
-
-
-.light-mode {
-    background-color: aliceblue;
+/* BLOG POSTS
+#blog {
+    column-count: 2;
+    column-gap: 5px;
+    width: 99%;
+    margin: 20px auto;
+    font-size: 1.5em;
     color: black;
-    animation: fadeIn 0.5s;
+    flex: 1;
 }
 
+#blog img {
+    width: 100%;
+    height: auto ;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+#blogpost {
+    color: black;
+    transition: 0.2s;
+}
+
+#blogpost:hover {
+    transform: scale(1.05);
+}
+
+#blogspan {
+    line-height: 25px;
+}
+*/
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the main container */
+.container {
+    padding: 20px;
+}
+
+/* Style the blog title */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Flexbox for two columns */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Each column */
+.column {
+    flex: 1; /* Distribute columns evenly */
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Distribute images evenly */
+}
+
+/* Individual items (image and text block) */
+.item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Images - Fit the container */
+img {
+    width: 100%;
+    max-width: 300px; /* Adjust max width to your needs */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Text under each image */
+.image-text {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+
+.sources {
+    margin-top: 50px;
+}
+
+/*MEDIA*/
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #121212;
@@ -226,65 +267,15 @@ button:active {
         src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
     }
 
-    div.gallery {
-        border-color: black;
+    /* CSS Fade In Animation*/
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
 
-
-        div.gallery:hover {
-            border: 5px solid black;
+        100% {
+            opacity: 1;
         }
     }
 
-    .light-mode {
-        background-color: #333333;
-        color: aliceblue;
-
-    }
-
-    .meny_topp {
-        background-color: rgb(225, 237, 248);
-    }
-
-    #bio {
-        display: flex;
-        padding: 0 8px;
-        width: 50%;
-        margin: 0 auto;
-    }
-
-    hr {
-        width: 40%;
-        font-weight: bolder;
-    }
-
-    /* BLOG POSTS */
-
-
-
-    #blog {
-        line-height: 0;
-        column-count: 2;
-        column-gap: 5px;
-        width: 75%;
-        margin: 20px auto 20px auto;
-        font-size: 1.5em;
-        color: black;
-    }
-
-    #blog img {
-        width: 100% !important;
-        height: auto !important;
-        margin-top: 20px;
-        margin-bottom: 15px
-    }
-
-    #blogpost {
-        /*wasd*/
-        color: black;
-    }
-
-    #blogpost:hover {
-        transform: scale(1.05);
-        transition: 0.2s;
-    }
 }
