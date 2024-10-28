@@ -3,26 +3,19 @@
 <head>
   <title> kul php </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">'
+  <meta charset="utf-8">
   <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-<h2>kul php ting</h2>
+<h2>Login for gratis gull i Clash Royale</h2>
 <form action="index.php" method="post">
-    <label>username: </label>
-    <input type="text" name="username"> <br>
-    <label>password: </label>
-    <input type="password" name="password"> <br>
-    <input type="submit" name="login" value="Log in"> <br>
+    <input type="text" name="username" placeholder="username" id="input"> <br>
+    <input type="password" name="password" placeholder="password" id="input"> <br>
+    <input type="submit" name="login" value="Log in" id="skibidi"> <br>
 </form>
 </body>
 </html>
-
-<?php foreach ($_POST as $key => $value) {
-    echo "$key = $value <br>";
-}
-
-/*if (isset($_POST["login"])) {
+<?php if (isset($_POST["login"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
@@ -31,9 +24,13 @@
     } elseif (empty($password)) {
         echo "Password is not filled in";
     } else {
-        echo "Welcome $username";
+        echo "Username = $username <br>";
+        echo "Password = $password <br>";
     }
 }
-*/
+
+/*foreach ($_POST as $key => $value) {
+        echo "$key = $value <br>";
+        }*/
 
 ?>
