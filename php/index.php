@@ -3,7 +3,8 @@
 <head>
   <title> kul php </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
+  <meta charset="utf-8">'
+  <link rel="stylesheet" href="styling.css">
 </head>
 <body>
 <h2>kul php ting</h2>
@@ -17,7 +18,11 @@
 </body>
 </html>
 
-<?php /*if (isset($_POST["login"])) {
+<?php foreach ($_POST as $key => $value) {
+    echo "$key = $value <br>";
+}
+
+/*if (isset($_POST["login"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
@@ -30,8 +35,5 @@
     }
 }
 */
-foreach ($_POST as $key => $value) {
-    echo "$key = $value <br>";
-}
 
 ?>
