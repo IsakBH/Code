@@ -7,26 +7,19 @@
   <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-<h2>Login for gratis gull i Clash Royale</h2>
-<form action="index.php" method="post">
-    <input type="checkbox" name="pizza" value="pizza">
-        Pizza <br>
-    <input type="checkbox" name="pasta" value="pasta">
-        Pasta <br>
-    <input type="checkbox" name="hotdog" value="hotdog">
-        Hotdog <br>
-    <input type="submit" name="confirm" value="confirm">
-</form>
+<h2>Kul PHP</h2>
 </body>
 </html>
 
-<?php if (isset($_POST["submit"])) {
-    if (isset($_POST["pizza"])) {
-        echo "You like pizza!";
-    } elseif (isset($_POST["pasta"])) {
-        echo "You like pasta!";
-    } elseif (isset($_POST["hotdog"])) {
-        echo "You like hotdogs!";
-    }
+<?php
+function is_even($number)
+{
+    // Lager en funksjon som heter "is_even" med parameteret "$number". Parameteret er noe du må skrive inn i parantesen når du caller på funksjonen, og oppfører seg som en midlertidig variabel som bare eksisterer inni funksjonen.
+    return $number % 2; // Returnerer variabelen "$number" med modulus 2.
 }
-?>
+
+echo is_even(11);
+
+// printer resultatet av "is_even" funksjonen med "$number" parameteret som 11.
+?>?>
+ ?>
