@@ -21,5 +21,6 @@ function is_even($number)
 echo is_even(11);
 
 // printer resultatet av "is_even" funksjonen med "$number" parameteret som 11.
-?>?>
- ?>
+
+
+?>
