@@ -64,7 +64,7 @@
 
     <hr>
 
-    <button onclick="location.href= 'Undersider/Skoleprosjekter/index.html'">Skole prosjekter</button>
+    <button onclick="location.href= 'Undersider/Skoleprosjekter/index.php'">Skole prosjekter</button>
 
     <!--- Ionic icons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
