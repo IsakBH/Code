@@ -9,14 +9,16 @@
 </head>
 
 <body>
-    <h2>Kul PHP</h2>
+    <h2>Skikkelig tøff PHP</h2>
     <form action="index.php" method="post">
-        <label>Username:</label> <br>
+        <label>Brukernavn:</label> <br>
         <input type="text" name="username" placeholder="ihe017"> <br>
-        <label>Age:</label> <br>
+        <label>Alder:</label> <br>
         <input type="text" name="age" placeholder="16"> <br>
-        <label>E-mail:</label> <br>
+        <label>E-post:</label> <br>
         <input type="text" name="email" placeholder="isak@brunhenriksen.net"> <br>
+        <label>Passord:</label> <br>
+        <input type="password" name="password" placeholder="Passord"> <br>
         <input type="submit" name="login" value="login"> <br>
     </form>
 </body>
