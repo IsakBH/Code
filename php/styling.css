@@ -16,7 +16,7 @@ html {
     background-color: #c7f9d9;
 }
 
-#skibidi {
+#submit {
     transition-duration: 0.25s;
     background-color: #c2e5fc ;
     padding: 5px;
@@ -28,6 +28,6 @@ html {
     Verdana, sans-serif;
 }
 
-#skibidi:hover {
+#submiti:hover {
     background-color: #a5d6f7;
 }

@@ -19,12 +19,39 @@
         <input type="text" name="email" placeholder="isak@brunhenriksen.net"> <br>
         <label>Passord:</label> <br>
         <input type="password" name="password" placeholder="Passord"> <br>
-        <input type="submit" name="login" value="login"> <br>
+        <label>Skriv inn et tilfeldig tall: </label> <br>
+        <input type="text" name="number" placeholder="3"> <br>
+        <input type="submit" name="submit" value="submit"> <br>
     </form>
 </body>
 
 </html>
 
 <?php
+$username = $_POST["username"];
+$age = $_POST["age"];
+$email = $_POST["email"];
+$password = $_POST["password"];
+$number = $_POST["number"];
+$sum = $age + $number;
 
+if (isset($_POST["submit"])) {
+    if (empty($username)) {
+        echo "Brukernavn er ikke fylt inn";
+    } elseif (empty($password)) {
+        echo "Passord er ikke fylt inn.";
+    } elseif (empty($email)) {
+        echo "E-post er ikke fylt inn.";
+    } elseif (empty($age)) {
+        echo "Alder er ikke fylt inn.";
+    } elseif (empty($number)) {
+        echo "Det tilfeldige tallet er ikke fylt inn.";
+    } else {
+        echo "Brukernavn = $username <br>";
+        echo "Password = $password <br>";
+        echo "Alder = $age <br>";
+        echo "E-post = $email <br>";
+        echo "Alder ($age) + tilfeldig tall ($number) = $sum ";
+    }
+}
 ?>

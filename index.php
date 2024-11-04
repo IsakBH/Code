@@ -14,7 +14,6 @@
     <?php
     include("Include/navbar.html");
     ?>
-
     <div class="øverst">
         <div>
             <h1> Bytt til linux NÅ </h1>
@@ -36,11 +35,7 @@
         </div>
     </div>
 
-    <button onclick="location.href = 'Undersider/side2.php';" id="myButton" class="float-left submit-button">Neste
-        side</button>
-    <button onclick="location.href = 'https://www.amalieskram.vgs.no/';" id="myButton"
-        class="float-left submit-button">ASVG</button>
-    </div>
+    <button onclick="location.href = 'Undersider/side2.php';" id="myButton" class="float-left submit-button">Om meg</button> </div>
 
     <hr>
 
