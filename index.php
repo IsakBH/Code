@@ -3,65 +3,61 @@
 
 <head>
     <title> Isak B. Henriksen </title>
-    <link rel="icon" href="Pictures/isaknyklipp.png">
-    <link rel="stylesheet" href="Stylesheets/styling.css">
-    <script src="Javascript/toggle.js"></script>
+    <link rel="icon" href="../Pictures/Tux.svg.png">
+    <link rel="stylesheet" href="../Stylesheets/styling2.css">
+    <script src="../Javascript/toggle.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 </head>
 
 <body>
+
+    <!--- Navigasjonsbar -->
     <?php
     include("Include/navbar.html");
     ?>
-    <div class="øverst">
-        <div>
-            <h1> Bytt til linux NÅ </h1>
-            <span class="advarsel"> Denne siden er bare for lek, ikke forvent noe bra.</span>
-        </div>
-    </div>
 
-    <div id="about">
-        <div id="description">
-            <p>
-                Du har ikke et valg, håper du vet det. Hvis du bruker macOS, så tenker jeg du går ut av mitt nærområde
-                <b>umiddelbart</b>. Til og med Windows er bedre enn macOS. Hørt om DirectX? Nei! Nå bruker du Vulkan. Hørt om
-                MSPaint? Nei! Nå bruker du GIMP!
-                Som jeg sa isted, så har du ingen valg. Du SKAL bytte til et ordentlig operativsystem NÅ.
+    <h1> Isak B. Henriksen </h1>
+
+    <div id="biography">
+        <div id="bio">
+            <p id="bio2">
+                Informasjonsteknologi og Medieproduksjon elev på Amalieskram VGs, litt nerd, Linux bruker og profesjonell i
+                nesten alle videospill.
             </p>
         </div>
-        <div id="descriptionbilde">
-            <img id="millie-bilde" src="https://wallpapercave.com/wp/YpCO1pN.jpg">
-        </div>
     </div>
 
-    <button onclick="location.href = 'Undersider/side2.php';" id="myButton" class="float-left submit-button">Om meg</button> </div>
-
-    <hr>
-
-    <div class="etterøverst">
-
-        <h3> Hei! Jeg heter Isak. </h3>
-        <p> Jeg går på Vg1 Informasjonsteknologi og Medieproduksjon på Amalieskram VGS. <br> Jeg lager denne nettsiden for å
-            teste mine egne ferdigheter, og samtidig for bruk til visse søknader eller en CV.</p>
-
-
-        <div id="videoembeds">
-            <div id="hotline">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/AtLctpjgTqQ?si=CWfkaCYg7t_3gDpZ"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <p> Musikken jeg hører på er elektro/edm, litt pop, litt country, og litt av alt annet untatt metall. </p>
+    <div id="isak">
+        <p>
+            Veldig interresert i alt data (maskinvare, programvare, osv) og har drevet med det ganske lenge. Jeg spiller også ganske mye
+            spill av alle sjangre, men mest skytespill. Jeg synes også at ting relatert til
+            servere, databaser og internett er veldig kult. Hvis du vil spille Overwatch, er det bare å si hop on og så blir jeg med.
+        </p>
     </div>
 
-    <hr>
+    <div id="isak2">
+        <p>
+            Jeg kommer fra Bergen og bor i Loddefjord. Siden jeg fortsatt går på skole, har jeg ingen profesjonelle
+            prestasjoner eller mål. Jeg har 100% achievements og nesten 2600 timer spilletid i Cookie Clicker på Steam,
+            som jeg vil si betyr at jeg er dedikert og god på det jeg er interessert i. Grunnen til at jeg valgte IM-linjen er at jeg har vært veldig interessert i IT hele livet, og synes at media delen også er litt interessant.
+        </p>
+    </div>
 
-    <button onclick="location.href= 'Undersider/Skoleprosjekter/index.php'">Skole prosjekter</button>
+    <div id="kontakt">
+        <ul>
+            <li> <ion-icon name="mail"></ion-icon>isak@brunhenriksen.net </li>
+            <li> 📞 458 48 234 </li>
+            <li> <ion-icon name="logo-discord"></ion-icon> isakbh </li>
+        </ul>
+    </div>
 
-    <!--- Ionic icons -->
+    <div class="side2knapp">
+        <button onclick="location.href = 'Undersider/side2.php';" id="myButton"
+            class="float-left submit-button">Forrige
+            side</button>
+    </div>
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
