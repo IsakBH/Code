@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="no">
 
@@ -5,15 +9,20 @@
     <title> kul php </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styling.css">
 </head>
 
 <body>
-    <h2>Skikkelig tøff PHP</h2>
+
 </body>
 
 </html>
-
 <?php
-// Sessions
+$password = "pizza123";
+$hash = password_hash($password, PASSWORD_DEFAULT);
+
+if (password_verify($password, $hash)) {
+    echo "Password is correct";
+} else {
+    echo "Password is incorrect";
+}
 ?>
