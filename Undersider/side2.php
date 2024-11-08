@@ -18,7 +18,7 @@
     <div class="øverst">
         <div>
             <h1> Bytt til linux NÅ </h1>
-            <span class="advarsel"> Denne siden er bare for lek, ikke forvent noe bra.</span>
+            <span class="advarsel"> Denne siden er bare tull. </span>
         </div>
     </div>
 
@@ -31,37 +31,33 @@
                 Som jeg sa isted, så har du ingen valg. Du SKAL bytte til et ordentlig operativsystem NÅ.
             </p>
         </div>
-        <div id="descriptionbilde">
+        <div>
             <img id="millie-bilde" src="https://wallpapercave.com/wp/YpCO1pN.jpg">
         </div>
     </div>
 
-    <button onclick="location.href = '../index.php';" id="myButton" class="float-left submit-button">Om meg</button>
+    <button onclick="location.href = '/index.php';" id="knapp" class="float-left submit-button">Om meg</button>
     </div>
 
     <hr>
 
-    <div class="etterøverst">
+    <div class="etteroverst">
 
         <h3> Hei! Jeg heter Isak. </h3>
-        <p> Jeg går på Vg1 Informasjonsteknologi og Medieproduksjon på Amalieskram VGS. <br> Jeg lager denne nettsiden for å
+        <p id="videotekst"> Jeg går på Vg1 Informasjonsteknologi og Medieproduksjon på Amalieskram VGS. <br> Jeg lager denne nettsiden for å
             teste mine egne ferdigheter, og samtidig for bruk til visse søknader eller en CV.</p>
 
-
         <div id="videoembeds">
-            <div id="hotline">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/AtLctpjgTqQ?si=CWfkaCYg7t_3gDpZ"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/AtLctpjgTqQ?si=CWfkaCYg7t_3gDpZ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <p> Musikken jeg hører på er elektro/edm, litt pop, litt country, og litt av alt annet untatt metall. </p>
     </div>
 
     <hr>
 
-    <button onclick="location.href= 'Undersider/Skoleprosjekter/index.php'">Skole prosjekter</button>
+    <button id="knapp" onclick="location.href= '1Skoleprosjekter/index.php'">Skole prosjekter</button>
 
     <!
         --- Ionic icons -->

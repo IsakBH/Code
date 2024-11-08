@@ -53,7 +53,7 @@
     </div>
 
     <div class="side2knapp">
-        <button onclick="location.href = 'Undersider/side2.php';" id="myButton"
+        <button onclick="location.href = '/Undersider/side2.php';" id="myButton"
             class="float-left submit-button">Leke side</button>
     </div>
 
