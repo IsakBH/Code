@@ -1,19 +1,16 @@
 <?php
 include("database.php");
 
-$username = "apekatt123";
-$password = "linustorvalds";
+$sql = "SELECT * FROM users WHERE user = 'Frida'";
+$result = mysqli_query($conn, $sql);
 
-$sql = "INSERT INTO users (user, password) VALUES ('$username', '$password')";
-
-try {
-    mysqli_query($conn, $sql);
-    echo "User is now registered.";
-} catch (mysqli_sql_exception) {
-    echo "Could not register user.";
+if(mysqli_num_rows($result) > 0) {
+    $row = mysqli_fetch_assoc($result);
+    echo $row["id"] . "<br>";
 }
 
 mysqli_close($conn);
+
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +23,17 @@ mysqli_close($conn);
 </head>
 
 <body>
-
+    <form action="database.php" method="post">
+        <label>
+            Brukernavn:
+        </label> <br>
+            <input type="text" name="username"> <br>
+        <label>
+            Passord:
+        </label> <br>
+            <input type="password" name="password"> <br>
+        <input type="submit" name="submit" value="Logg på">
+    </form>
 </body>
 
 </html>
