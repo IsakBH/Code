@@ -24,18 +24,18 @@
     <div class="row">
         <div class="column">
             <div class="item">
-                <a href="../best-beaches-in-michigan.html"><img src="https://cdn.pixabay.com/photo/2022/11/25/14/16/lighthouse-7616296_640.jpg">
+                <a href="../best-beaches-in-michigan.php"><img src="https://cdn.pixabay.com/photo/2022/11/25/14/16/lighthouse-7616296_640.jpg">
                     <p class="image-text">The best beaches to visit in Michigan</p>
             </div>
         </div>
 
         <div class="column">
             <div class="item">
-                <a href="../best-places-to-visit.html"><img src="../../Pictures/placestovisit.jpg">
+                <a href="../best-places-to-visit.php"><img src="../../Pictures/placestovisit.jpg">
                     <p class="image-text">The best places to visit in Michigan</p>
             </div>
             <div class="item">
-                <a href="../best-road-trips-in-michigan.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFj46aaYQpWN9QqG_i64OEWN3pDHsaRMr8NQ&s">
+                <a href="../best-road-trips-in-michigan.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFj46aaYQpWN9QqG_i64OEWN3pDHsaRMr8NQ&s">
                     <p class="image-text">Best road trips in Michigan</p>
             </div>
         </div>

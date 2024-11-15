@@ -4,7 +4,7 @@
 <head>
     <title> Best Places to Visit in Michigan </title>
     <link rel="icon" href="../Pictures/isaknyklipp.png">
-    <link rel="stylesheet" href="Stylesheets/stylingpost.css">
+    <link rel="stylesheet" href="../Stylesheets/stylingpost.css">
     <script src="../Javascript/toggle.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">

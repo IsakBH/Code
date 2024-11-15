@@ -26,7 +26,7 @@
                 width="100%" , height="auto">
 
             <h2>2. Ludington State Park</h2>
-            <p>Ludington State Park Beach, located along the shores of Lake Michigan, is a top destination for beach lovers seeking natural beauty and outdoor adventure. The expansive, sandy beach is perfect for swimming, sunbathing, and beachcombing, with the added bonus of breathtaking sunsets over the lake. The park’s unique setting offers access to both Lake Michigan and Hamlin Lake, providing opportunities for kayaking, fishing, and paddleboarding. Nearby dunes and hiking trails, including a scenic walk to the historic Big Sable 
+            <p>Ludington State Park Beach, located along the shores of Lake Michigan, is a top destination for beach lovers seeking natural beauty and outdoor adventure. The expansive, sandy beach is perfect for swimming, sunbathing, and beachcombing, with the added bonus of breathtaking sunsets over the lake. The park’s unique setting offers access to both Lake Michigan and Hamlin Lake, providing opportunities for kayaking, fishing, and paddleboarding. Nearby dunes and hiking trails, including a scenic walk to the historic Big Sable
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Ludington_State_Park_beachfront.jpg"
                 width="100%" , height="auto">
             <h2>3. Tawas Point State Park</h2>

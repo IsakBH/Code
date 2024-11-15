@@ -40,7 +40,6 @@
         <img id="galleribilde" src="../Pictures/isakgigachad.png">
         <img id="galleribilde" src="../Pictures/milliesoverigjen.png">
         <img id="galleribilde" src="../Pictures/nettsideskisse.png">
-        <img id="galleribilde" src="https://cdn.pixabay.com/photo/2022/11/25/14/16/lighthouse-7616296_640.jpg" title="En tidlig skisse for nettsiden">
     </div>
 
     <!--- Ionic icons -->

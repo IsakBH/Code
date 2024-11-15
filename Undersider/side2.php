@@ -44,7 +44,7 @@
     <div class="etteroverst">
 
         <h3> Hei! Jeg heter Isak. </h3>
-        <p id="videotekst"> Jeg går på Vg1 Informasjonsteknologi og Medieproduksjon på Amalieskram VGS. <br> Jeg lager denne nettsiden for å
+        <p id="videotekst"> Jeg går på Vg1 Informasjonsteknologi og Medieproduksjon på Amalieskram VGS. Jeg lager denne nettsiden for å
             teste mine egne ferdigheter, og samtidig for bruk til visse søknader eller en CV.</p>
 
         <div id="videoembeds">
@@ -57,7 +57,7 @@
 
     <hr>
 
-    <button id="knapp" onclick="location.href= '1Skoleprosjekter/index.php'">Skole prosjekter</button>
+    <button id="knapp" onclick="location.href= 'Skoleprosjekter/index.php'">Skole prosjekter</button>
 
     <!
         --- Ionic icons -->
