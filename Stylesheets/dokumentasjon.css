@@ -11,13 +11,14 @@ html {
   margin: 0;
   padding: 0;
   animation: fadeIn 3s;
-  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #333;
   padding: 5;
-  margin: 0;
+  margin: 0 auto;
+  text-align: start;
 }
 
 /* Navigation bar */
@@ -25,7 +26,6 @@ body {
   background-color: #000000;
   text-align: center;
   padding: 10px;
-  margin: 0 auto;
   width: 100%;
   height: 2em;
 }
@@ -267,9 +267,9 @@ button:active {
   }
   div.gallery {
     border-color: black;
-    div.gallery:hover {
-      border: 5px solid black;
-    }
+  }
+  div.gallery div.gallery:hover {
+    border: 5px solid black;
   }
   .light-mode {
     background-color: #333333;
@@ -285,5 +285,16 @@ button:active {
     margin: 0 auto;
   }
 }
+/* Teksten til loggen */
+#logg {
+  top: 0;
+  width: 50%;
+  padding: 20px 100px 100px 100px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #e6f3ff;
+}
 
-/*# sourceMappingURL=apekatt.scss.map */
+
+
+/*# sourceMappingURL=dokumentasjon.css.map */

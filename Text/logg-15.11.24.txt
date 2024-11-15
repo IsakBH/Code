@@ -3,10 +3,26 @@ Kort LOGG som skrives på slutten av hver økt. Informativ, beskrivelse over hvo
 </b>
 <br> <br>
 
-I denne timen har jeg jobbet med å konvertere CSS til SCSS. SCSS er en preprocessor til CSS, som er laget for å gjøre CSS lettere å lese og mer maintainable. <br> Den lar deg også bruke variabler, som gjør det MYE lettere å skjønne hva som skjer. Variabler er konge for nesten alt, inkludert dette. Istedet for å scrolle opp og ned i hele filen for å finne alle ID-ene og klassene som bruker den samme fargen, kan jeg bare assigne det til en variabel som får det til å gå 300x kjappere.
+<h3>
+Hva har jeg gjort denne timen?
+</h3>
+
+I denne timen har jeg jobbet med å konvertere CSS til SCSS. SCSS er en preprocessor til CSS, som er laget for å gjøre CSS lettere å lese og mer maintainable. <br> Den lar deg også bruke variabler, som gjør det MYE lettere å skjønne hva som skjer. Variabler er konge. Istedet for å scrolle opp og ned i hele filen for å finne alle ID-ene og klassene som bruker den samme fargen, kan jeg bare assigne det til en variabel som får det til å gå 300x kjappere. I min mening, så er den beste koden den koden du ikke skriver.
 <br> <br>
 
+<h3>
+Hvordan jeg har jobbet
+</h3>
+Jeg føler jeg har jobbet veldig bra og effektivt. Jeg har gjort det jeg skulle, og har oppnåd målene mine for timen. I starten av timen leste jeg meg opp på SCSS (forkortelse for 'Sassy Cascading Style Sheet'), og etter det lastet jeg det ned, installerte det, og begynte å leke litt med det. Jeg synes det er veldig bra, og ser litt finere ut enn CSS (pga variabler, mix-ins, osv)
+<br> <br>
 
+<h3>
+Hvordan jeg har hentet informasjonen min
+</h3>
+Jeg har hentet informasjonen min hovedsaklig fra
+<a href="https://sass-lang.com/documentation">Sass-lang</a>
+, men også litt fra Reddit og Stackoverflow. All informasjonen jeg har hentet har vært dokujmentasjon og guides for SCSS.
+<br> <br>
 
 <h3>
 Hva har jeg tenkt til å gjøre med Javascript?
