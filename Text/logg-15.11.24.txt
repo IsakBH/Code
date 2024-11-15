@@ -1,0 +1,15 @@
+<b>
+Kort LOGG som skrives på slutten av hver økt. Informativ, beskrivelse over hvordan du har jobbet, og hentet informasjon denne økten.
+</b>
+<br> <br>
+
+I denne timen har jeg jobbet med å konvertere CSS til SCSS. SCSS er en preprocessor til CSS, som er laget for å gjøre CSS lettere å lese og mer maintainable. <br> Den lar deg også bruke variabler, som gjør det MYE lettere å skjønne hva som skjer. Variabler er konge for nesten alt, inkludert dette. Istedet for å scrolle opp og ned i hele filen for å finne alle ID-ene og klassene som bruker den samme fargen, kan jeg bare assigne det til en variabel som får det til å gå 300x kjappere.
+<br> <br>
+
+
+
+<h3>
+Hva har jeg tenkt til å gjøre med Javascript?
+</h3>
+
+For spillet vi må lage, har jeg tenkt til å enten lage en veldig enkel Stein, Saks, Papir, eller noe mer avansert som Tripp-trapp-tresko.

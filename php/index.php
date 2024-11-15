@@ -15,6 +15,7 @@
 </form>
 </body>
 
+
 <?php
 $muligheter = array("0", "1", "2"); // lager en array med verdiene 0, 1, og 2
 $maskinensValg = array_rand($muligheter); // lager en variabel og angir en tilfeldig verdi fra arrayen $muligheter

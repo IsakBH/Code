@@ -3,7 +3,7 @@
 
 <head>
     <title> Best Beaches in Michigan </title>
-    <link rel="icon" href="../Pictures/isaknyklipp.png">
+    <link rel="icon" href="/Pictures/Tux.svg.png">
     <link rel="stylesheet" href="../Stylesheets/stylingpost.css">
     <script src="../Javascript/toggle.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
