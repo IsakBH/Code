@@ -18,7 +18,7 @@ include("../Include/navbar.html");
     <div id="logg">
     <h2>15.11.24 (dobbeltime)</h2>
     <?php
-    include("/home/isak/Programs/Code/Text/logg-15.11.24.txt");
+    include("../Logg/logg-15.11.24.txt");
     ?>
     </div>
 </body>
