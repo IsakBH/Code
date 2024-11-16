@@ -1,13 +1,7 @@
-$background-color-1: aliceblue;
-$background-color-2: #e6f3ff; // 20% mørkere versjon av aliceblue
-$background-color-dark: #07090C; // en veldig mørk fargetone av aliceblue
-$background-color-dark-2: #080B1D; // en litt lysere fargetone av background-color-dark
-$text-color-dark: #d1d7e2; // tekst fargen i dark mode
-
 $base-color-light: aliceblue;
-$base-variant-light: #e6f3ff;
-$text-color-light: #111528;
-$primary-color-light: aliceblue;
+$base-variant-light: #e6f3ff; // 20% mørkere versjon av aliceblue
+$text-color-light: #111528; // en veldig mørk fargetone av aliceblue
+$primary-color-light: aliceblue; // en litt lysere fargetone av background-color-dark
 $accent-color-light: #0071ff;
 
 $base-color-dark: #070b1d;
@@ -50,7 +44,7 @@ body {
 
 #togglelight {
     border-radius: 20px;
-    background-color: $background-color-1;
+    background-color: $base-color-light;
     color: $text-color-light !important;
     &:hover{
         background-color: rgb(204, 212, 219);
@@ -61,7 +55,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: $background-color-1;
+    background-color: $base-color-light;
     color: $text-color-light !important;
     border-radius: 50px;
     font-size: 1em;
@@ -85,7 +79,7 @@ body {
 }
 
 #galleriknapp {
-    background-color: $background-color-1;
+    background-color: $base-color-light;
     border-radius: 20px;
     color: $text-color-light !important;
     &:hover{
@@ -99,7 +93,7 @@ body {
     right: 0;
     border-radius: 50px;
     font-size: 1em;
-    background-color: $background-color-1;
+    background-color: $base-color-light;
 }
 
 h1 {
@@ -149,7 +143,7 @@ button {
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: $background-color-1;
+        background-color: $base-color-light;
         color: black;
     }
 
@@ -165,7 +159,7 @@ button {
     padding: 20px 100px 100px 100px;
     margin: 0 auto;
     height: 100%;
-    background-color: $background-color-2;
+    background-color: $base-variant-light;
 }
 
 // Light Mode Styles
