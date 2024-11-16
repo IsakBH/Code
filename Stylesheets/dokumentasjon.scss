@@ -6,9 +6,20 @@ $accent-color-light: #0071ff;
 
 $base-color-dark: #070b1d;
 $base-variant-dark: #101425;
-$text-color-dark: #ffffff;
+$text-color-dark: #f8f8f8;
 $primary-color-dark: #3a435d;
 $accent-color-dark: #0071ff;
+
+$navbar-background-light: #E1EDF8; // bakgrunnsfargen av nav-baren i light mode
+$navbar-button-light: aliceblue; // fargen på knappene på nav-baren i light mode
+$navbar-social-light: black; // fargen på social knappene på nav-baren i light mode
+
+$navbar-background-dark: #29394f; // bakgrunnsfarge på nav-baren i dark mode
+$navbar-button-dark: #364c69; // fargen på knappene på nav-baren i dark mode
+$navbar-button-dark-hover: #425d80; // fargen på knappene på nav-baren når du hoverer over de i dark mode
+$navbar-social-dark: #f8f8f8;// fargen på social knappene på nav-baren i dark mode
+
+
 
 @charset "UTF-8";
 /* Essentials */
@@ -176,7 +187,7 @@ button {
     }
 }
 
-// Dark Mode Styles
+// dark mode
 .darkmode {
     background-color: $base-color-dark;
     color: $text-color-dark;
@@ -191,6 +202,42 @@ button {
     #logg{
         background-color: #1A2432;
     }
-}
+    .meny_topp{
+        background-color: $navbar-background-dark;
+    }
+    #togglelight {
+        border-radius: 20px;
+        background-color: $navbar-button-dark;
+        color: $text-color-dark;
+        &:hover{
+            background-color: $navbar-button-dark-hover;
+        }
+    }
 
-/*# sourceMappingURL=apekatt.scss.map */
+    #hjemknapp {
+        background-color: $navbar-button-dark;
+        color: $text-color-dark;
+        &:hover{
+            background-color: $navbar-button-dark-hover;
+        }
+    }
+
+    #social {
+        color: $text-color-dark;
+        &:hover{
+            background-color: $navbar-button-dark-hover;
+        }
+    }
+
+    #galleriknapp {
+        background-color: $navbar-button-dark;
+        color: $text-color-dark;
+        &:hover{
+            background-color: $navbar-button-dark-hover;
+        }
+    }
+
+    .meny_topp_høyre {
+        background-color: $navbar-button-dark;
+    }
+}

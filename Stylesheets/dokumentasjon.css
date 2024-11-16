@@ -162,11 +162,11 @@ button:active {
 
 .darkmode {
   background-color: #070b1d;
-  color: #ffffff;
+  color: #f8f8f8;
 }
 .darkmode button {
   background-color: #333333;
-  color: #ffffff;
+  color: #f8f8f8;
 }
 .darkmode button:hover {
   background-color: #555555;
@@ -174,7 +174,39 @@ button:active {
 .darkmode #logg {
   background-color: #1A2432;
 }
-
-
+.darkmode .meny_topp {
+  background-color: #29394f;
+}
+.darkmode #togglelight {
+  border-radius: 20px;
+  background-color: #364c69;
+  color: #f8f8f8;
+}
+.darkmode #togglelight:hover {
+  background-color: #425d80;
+}
+.darkmode #hjemknapp {
+  background-color: #364c69;
+  color: #f8f8f8;
+}
+.darkmode #hjemknapp:hover {
+  background-color: #425d80;
+}
+.darkmode #social {
+  color: #f8f8f8;
+}
+.darkmode #social:hover {
+  background-color: #425d80;
+}
+.darkmode #galleriknapp {
+  background-color: #364c69;
+  color: #f8f8f8;
+}
+.darkmode #galleriknapp:hover {
+  background-color: #425d80;
+}
+.darkmode .meny_topp_høyre {
+  background-color: #364c69;
+}
 
 /*# sourceMappingURL=dokumentasjon.css.map */
