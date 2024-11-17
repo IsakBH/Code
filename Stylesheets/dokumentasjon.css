@@ -84,16 +84,6 @@ body {
   background-color: aliceblue;
 }
 
-h1 {
-  margin: 5px 0 0 0;
-  padding: 0px;
-  text-align: center;
-}
-
-hr {
-  color: white;
-}
-
 button {
   padding: 15px 40px;
   border: none;
@@ -138,9 +128,14 @@ button:active {
     src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
   }
 }
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
 /* Teksten til loggen */
 #logg {
-  display: flex;
+  flex: 1;
   top: 0;
   width: 50%;
   padding: 20px 100px 100px 100px;
@@ -149,19 +144,14 @@ button:active {
   background-color: #e6f3ff;
 }
 
-#loggtekst {
-  display: flex;
-}
-
 .lightmode {
   background-color: aliceblue;
-  color: #111528;
 }
-.lightmode button {
+.lightmode c button {
   background-color: #dddddd;
   color: #000;
 }
-.lightmode button:hover {
+.lightmode c button:hover {
   background-color: #bebdbd;
 }
 
@@ -215,6 +205,8 @@ button:active {
 }
 
 #sidebar {
+  display: flex;
+  align-items: flex-start;
   width: 130px;
   position: fixed;
   z-index: 1;

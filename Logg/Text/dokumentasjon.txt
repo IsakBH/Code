@@ -1,0 +1,26 @@
+    <h4>
+    Hva har jeg tenkt til å gjøre med Javascript?
+    </h4>
+
+    <p>
+    For spillet vi må lage, har jeg tenkt til å enten lage en veldig enkel Stein, Saks, Papir, eller noe mer avansert som Tripp-trapp-tresko.
+    </p>
+
+    <h4>
+    Hvorfor har jeg ikke fulgt skissen min?
+    </h4>
+
+    <p>
+    Grunnen til at jeg ikke har fulgt
+
+    <a href="/Pictures/nettsideskisse.png" target="_blank">
+    skissen min
+    </a>
+
+    er at etter jeg lagde skissen min, som jeg lagde med nesten ingen erfaring i web-utvikling, er at jeg har fått mer erfaring, blitt bedre, og skjønt at designet i skissen ikke var særlig bra. Jeg føler at designet på skissen var veldig barebones, og at det hadde vært veldig vanskelig å få inn alt jeg hadde/har lyst å få inn på siden med det designet. Grunnen til at det er så mye tomrom på designet jeg har gjort nå, er at jeg har prøvd å gjøre det så minimalistisk som mulig. Hvorfor? Det ser fint ut.
+
+    <br>
+    <br>
+
+    Jeg har tenkt til å fylle opp tomrommet jeg har på siden, men før jeg gjør det må jeg finne på noe jeg faktisk kan ha der. Så langt har jeg tenkt til å legge til en side-bar på venstre siden som lar deg kjapt scrolle ned til forskjellige steder på siden (med bruk av # anchors).
+    </p>
