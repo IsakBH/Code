@@ -15,10 +15,17 @@ include("../Include/navbar.html");
 ?>
 
 <body>
-    <div id="logg">
-    <h2>15.11.24 (dobbeltime)</h2>
-    <?php
-    include("../Logg/Text/logg-15.11.24.txt");
-    ?>
+    <div class="sidebar">
+        <a href="#20.11.24">20.11.24</a>
+        <a href="#15.11.24">15.11.24</a>
     </div>
+    <div id="logg">
+        <div id="loggtekst">
+            <h2 id="15.11.24">15.11.24 (dobbeltime)</h2>
+            <?php
+            include("../Logg/Text/logg-15.11.24.txt");
+            ?>
+        </div>
+
+
 </body>

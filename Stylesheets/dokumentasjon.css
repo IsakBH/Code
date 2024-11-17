@@ -140,12 +140,17 @@ button:active {
 }
 /* Teksten til loggen */
 #logg {
+  display: flex;
   top: 0;
   width: 50%;
   padding: 20px 100px 100px 100px;
   margin: 0 auto;
   height: 100%;
   background-color: #e6f3ff;
+}
+
+#loggtekst {
+  display: flex;
 }
 
 .lightmode {
@@ -172,7 +177,7 @@ button:active {
   background-color: #555555;
 }
 .darkmode #logg {
-  background-color: #1A2432;
+  background-color: #1a2432;
 }
 .darkmode .meny_topp {
   background-color: #29394f;
@@ -207,6 +212,29 @@ button:active {
 }
 .darkmode .meny_topp_høyre {
   background-color: #364c69;
+}
+
+#sidebar {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+/* The navigation menu links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196f3;
+  display: block;
+}
+.sidebar a:hover {
+  color: #064579;
 }
 
 /*# sourceMappingURL=dokumentasjon.css.map */

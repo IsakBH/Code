@@ -10,16 +10,14 @@ $text-color-dark: #f8f8f8;
 $primary-color-dark: #3a435d;
 $accent-color-dark: #0071ff;
 
-$navbar-background-light: #E1EDF8; // bakgrunnsfargen av nav-baren i light mode
+$navbar-background-light: #e1edf8; // bakgrunnsfargen av nav-baren i light mode
 $navbar-button-light: aliceblue; // fargen på knappene på nav-baren i light mode
 $navbar-social-light: black; // fargen på social knappene på nav-baren i light mode
 
 $navbar-background-dark: #29394f; // bakgrunnsfarge på nav-baren i dark mode
 $navbar-button-dark: #364c69; // fargen på knappene på nav-baren i dark mode
 $navbar-button-dark-hover: #425d80; // fargen på knappene på nav-baren når du hoverer over de i dark mode
-$navbar-social-dark: #f8f8f8;// fargen på social knappene på nav-baren i dark mode
-
-
+$navbar-social-dark: #f8f8f8; // fargen på social knappene på nav-baren i dark mode
 
 @charset "UTF-8";
 /* Essentials */
@@ -57,7 +55,7 @@ body {
     border-radius: 20px;
     background-color: $base-color-light;
     color: $text-color-light !important;
-    &:hover{
+    &:hover {
         background-color: rgb(204, 212, 219);
     }
 }
@@ -70,7 +68,7 @@ body {
     color: $text-color-light !important;
     border-radius: 50px;
     font-size: 1em;
-    &:hover{
+    &:hover {
         background-color: rgb(204, 212, 219);
     }
 }
@@ -82,7 +80,7 @@ body {
     font-size: 2em;
     border-radius: 50px;
     height: 2em;
-    &:hover{
+    &:hover {
         background-color: rgb(204, 212, 219);
         transition: 0.5s;
         padding: 0;
@@ -93,7 +91,7 @@ body {
     background-color: $base-color-light;
     border-radius: 20px;
     color: $text-color-light !important;
-    &:hover{
+    &:hover {
         background-color: rgb(204, 212, 219);
     }
 }
@@ -129,14 +127,14 @@ button {
     font-weight: bolder;
     color: #000;
     margin: 0 auto;
-    &:hover{
+    &:hover {
         border-radius: 10px;
         transition: 0.5s;
         background-color: #bebdbd;
         border-radius: 12px;
         transform: scale(1.1);
     }
-    &:active{
+    &:active {
         background-color: #009578;
         transition: 0.5s;
     }
@@ -165,6 +163,7 @@ button {
 }
 /* Teksten til loggen */
 #logg {
+    display: flex;
     top: 0;
     width: 50%;
     padding: 20px 100px 100px 100px;
@@ -199,17 +198,17 @@ button {
             background-color: #555555;
         }
     }
-    #logg{
-        background-color: #1A2432;
+    #logg {
+        background-color: #1a2432;
     }
-    .meny_topp{
+    .meny_topp {
         background-color: $navbar-background-dark;
     }
     #togglelight {
         border-radius: 20px;
         background-color: $navbar-button-dark;
         color: $text-color-dark;
-        &:hover{
+        &:hover {
             background-color: $navbar-button-dark-hover;
         }
     }
@@ -217,14 +216,14 @@ button {
     #hjemknapp {
         background-color: $navbar-button-dark;
         color: $text-color-dark;
-        &:hover{
+        &:hover {
             background-color: $navbar-button-dark-hover;
         }
     }
 
     #social {
         color: $text-color-dark;
-        &:hover{
+        &:hover {
             background-color: $navbar-button-dark-hover;
         }
     }
@@ -232,12 +231,36 @@ button {
     #galleriknapp {
         background-color: $navbar-button-dark;
         color: $text-color-dark;
-        &:hover{
+        &:hover {
             background-color: $navbar-button-dark-hover;
         }
     }
 
     .meny_topp_høyre {
         background-color: $navbar-button-dark;
+    }
+}
+
+// Side-bar
+#sidebar {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+/* The navigation menu links */
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196f3;
+    display: block;
+    &:hover {
+        color: #064579;
     }
 }
