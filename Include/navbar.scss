@@ -1,0 +1,59 @@
+/* Navigation bar */
+.meny_topp {
+    background-color: rgb(225, 237, 248);
+    color: $text-color-light !important;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 2em;
+}
+
+#hjemknapp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $base-color-light;
+    color: $text-color-light !important;
+    border-radius: 50px;
+    font-size: 1em;
+    &:hover {
+        background-color: rgb(204, 212, 219);
+    }
+    &:active {
+        background-color: darken($navbar-button-light, 20%);
+    }
+}
+
+#social {
+    color: black;
+    padding: 10px;
+    margin: auto 0;
+    font-size: 2em;
+    border-radius: 50px;
+    height: 2em;
+    &:hover {
+        background-color: rgb(204, 212, 219);
+        transition: 0.5s;
+        padding: 0;
+    }
+}
+
+.meny_topp_høyre {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+    font-size: 1em;
+    background-color: $base-color-light;
+    button {
+        background-color: $base-color-light;
+        border-radius: 20px;
+        color: $text-color-light !important;
+        &:hover {
+            background-color: rgb(204, 212, 219);
+        }
+        &:active {
+            background-color: darken($navbar-button-light, 20%);
+        }
+    }
+}

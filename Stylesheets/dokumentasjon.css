@@ -34,7 +34,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: aliceblue;
+  background-color: #F0F8FF;
   color: #111528 !important;
   border-radius: 50px;
   font-size: 1em;
@@ -63,10 +63,10 @@ body {
   right: 0;
   border-radius: 50px;
   font-size: 1em;
-  background-color: aliceblue;
+  background-color: #F0F8FF;
 }
 .meny_topp_høyre button {
-  background-color: aliceblue;
+  background-color: #F0F8FF;
   border-radius: 20px;
   color: #111528 !important;
 }
@@ -113,7 +113,7 @@ button:active {
 }
 @media (prefers-color-scheme: light) {
   body {
-    background-color: aliceblue;
+    background-color: #F0F8FF;
     color: black;
   }
   @font-face {
@@ -138,7 +138,7 @@ button:active {
 }
 
 .lightmode {
-  background-color: aliceblue;
+  background-color: #F0F8FF;
 }
 .lightmode c button {
   background-color: #dddddd;
