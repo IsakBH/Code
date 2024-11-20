@@ -1,7 +1,6 @@
 // Light Mode Styles
 .lightmode {
     background-color: $base-color-light;
-    c
 
     button {
         background-color: #dddddd;
@@ -59,9 +58,4 @@
                 }
             }
         }
-}
-
-// automatisk sjekk på den foretrukne fargetema
-@media (prefers-color-scheme: light) {
-
 }

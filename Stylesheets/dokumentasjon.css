@@ -54,6 +54,16 @@
   background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
 }
 
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #F0F8FF;
+    color: black;
+  }
+  @font-face {
+    font-family: HackFont;
+    src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
+  }
+}
 /* Navigation bar */
 .meny_topp {
   background-color: rgb(225, 237, 248);
@@ -114,9 +124,13 @@
   background-color: rgb(138, 200.4, 255);
 }
 
+@font-face {
+  font-family: HackFont;
+  src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
+}
 /* Essentials */
 * {
-  font-family: HackFont, Helvetica, Arial, sans-serif;
+  font-family: HackFont, Helvetica, Arial, sans-serif !important;
   transition: 0.25s !important;
 }
 
@@ -126,6 +140,7 @@ html {
   padding: 0;
   animation: fadeIn 3s;
   overflow-x: hidden;
+  background-color: #F0F8FF;
 }
 
 body {
@@ -208,6 +223,58 @@ button:active {
 }
 .sidebar a:hover {
   color: #064579;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: aliceblue;
+    color: black;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #070b1d;
+    color: #f8f8f8;
+  }
+  button {
+    background-color: #333333;
+    color: #f8f8f8;
+  }
+  button:hover {
+    background-color: #555555;
+  }
+  #logg {
+    background-color: #1a2432;
+  }
+  .meny_topp {
+    background-color: #29394f;
+  }
+  #hjemknapp {
+    background-color: #364c69;
+    color: #f8f8f8;
+  }
+  #hjemknapp:hover {
+    background-color: #425d80;
+  }
+  #social {
+    color: #f8f8f8;
+  }
+  #social:hover {
+    background-color: #425d80;
+  }
+  .meny_topp_høyre {
+    background-color: #364c69;
+  }
+  .meny_topp_høyre button {
+    background-color: #364c69;
+    color: #f8f8f8;
+  }
+  .meny_topp_høyre button:hover {
+    background-color: #364c69;
+  }
+  .meny_topp_høyre button:active {
+    background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
+  }
 }
 
 /*# sourceMappingURL=dokumentasjon.css.map */

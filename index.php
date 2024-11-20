@@ -14,7 +14,7 @@
 
     <!--- Navigasjonsbar -->
     <?php
-    include("Include/navbar.html");
+    include("Include/HTML/navbar.html");
     ?>
 
     <h1> Isak B. Henriksen </h1>

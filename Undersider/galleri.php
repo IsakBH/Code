@@ -13,7 +13,7 @@
 
     <!--- Navigasjonsbar -->
     <?php
-    include("../Include/navbar.html");
+    include("../Include/HTML/navbar.html");
     ?>
 
     <!---- Galleri -->

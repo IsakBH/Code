@@ -1,11 +1,15 @@
-@import "../Include/farger.scss"; // importer farger fra farger.scss
-@import "../Include/lightdarkmode.scss"; // importer light og dark mode styling
-@import "../Include/navbar.scss"; // importer nav-bar styling
+@import "../Include/Styling/farger.scss"; // importer farger fra farger.scss
+@import "../Include/Styling/lightdarkmode.scss"; // importer light og dark mode styling
+@import "../Include/Styling/navbar.scss"; // importer nav-bar styling
 
 @charset "UTF-8";
+@font-face {
+    font-family: HackFont;
+    src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
+}
 /* Essentials */
 * {
-    font-family: HackFont, Helvetica, Arial, sans-serif;
+    font-family: HackFont, Helvetica, Arial, sans-serif !important;
     transition: 0.25s !important;
 }
 
@@ -15,6 +19,7 @@ html {
     padding: 0;
     animation: fadeIn 3s;
     overflow-x: hidden;
+    background-color: $base-color-light;
 }
 
 body {
@@ -99,4 +104,61 @@ button {
     &:hover {
         color: #064579;
     }
+}
+
+// automatisk sjekk på den foretrukne fargetema
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: aliceblue;
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $base-color-dark;
+        color: $text-color-dark;
+    }
+    button {
+        background-color: #333333;
+        color: $text-color-dark;
+        &:hover {
+            background-color: #555555;
+        }
+    }
+    #logg {
+        background-color: #1a2432;
+    }
+    .meny_topp {
+        background-color: $navbar-background-dark;
+    }
+
+    #hjemknapp {
+        background-color: $navbar-button-dark;
+        color: $text-color-dark;
+        &:hover {
+            background-color: $navbar-button-dark-hover;
+        }
+    }
+
+    #social {
+        color: $text-color-dark;
+        &:hover {
+            background-color: $navbar-button-dark-hover;
+        }
+    }
+
+    .meny_topp_høyre {
+        background-color: $navbar-button-dark;
+            button {
+                background-color: $navbar-button-dark;
+                color: $text-color-dark;
+                &:hover {
+                    background-color: $navbar-button-dark;
+                }
+                &:active {
+                    background-color: lighten($navbar-button-dark, 20%);
+                }
+            }
+        }
 }

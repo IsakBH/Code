@@ -12,7 +12,7 @@
 
 <body>
     <?php
-    include("../../Include/navbar.html");
+    include("../../Include/HTML/navbar.html");
     ?>
 
     https://drive.google.com/drive/folders/1tvAsRBP1Je0bFeK1nKmD_ybByF_DwPsm

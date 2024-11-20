@@ -13,7 +13,7 @@
 </html>
 
 <body><?php
-        include("../../Include/navbar.html");
+        include("../../Include/HTML/navbar.html");
         ?>
     <div class="row">
         <div class="column">

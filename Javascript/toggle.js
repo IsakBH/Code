@@ -1,4 +1,4 @@
-function myFunction() {
+function toggleTheme() {
     const toggleButton = document.getElementById('togglelight');
     const body = document.body;
 
