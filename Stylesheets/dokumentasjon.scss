@@ -1,4 +1,6 @@
 @import "../Include/farger.scss"; // importer farger fra farger.scss
+@import "../Include/lightdarkmode.scss"; // importer light og dark mode styling
+@import "../Include/navbar.scss"; // importer nav-bar styling
 
 @charset "UTF-8";
 /* Essentials */
@@ -20,63 +22,6 @@ body {
     padding: 5;
     margin: 0 auto;
     text-align: start;
-}
-
-/* Navigation bar */
-.meny_topp {
-    background-color: rgb(225, 237, 248);
-    color: $text-color-light !important;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    height: 2em;
-}
-
-#hjemknapp {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: $base-color-light;
-    color: $text-color-light !important;
-    border-radius: 50px;
-    font-size: 1em;
-    &:hover {
-        background-color: rgb(204, 212, 219);
-    }
-}
-
-#social {
-    color: black;
-    padding: 10px;
-    margin: auto 0;
-    font-size: 2em;
-    border-radius: 50px;
-    height: 2em;
-    &:hover {
-        background-color: rgb(204, 212, 219);
-        transition: 0.5s;
-        padding: 0;
-    }
-}
-
-.meny_topp_høyre {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50px;
-    font-size: 1em;
-    background-color: $base-color-light;
-        button {
-            background-color: $base-color-light;
-            border-radius: 20px;
-            color: $text-color-light !important;
-            &:hover {
-                background-color: rgb(204, 212, 219);
-            }
-            &:active {
-                background-color: darken($navbar-button-light, 20%);
-            }
-        }
 }
 
 button {
@@ -114,18 +59,6 @@ button {
     }
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: $base-color-light;
-        color: black;
-    }
-
-    @font-face {
-        font-family: HackFont;
-        src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
-    }
-}
-
 .content{
     display: flex;
     align-items: flex-start;
@@ -140,70 +73,6 @@ button {
     margin: 0 auto;
     height: 100%;
     background-color: $base-variant-light;
-}
-
-// Light Mode Styles
-.lightmode {
-    background-color: $base-color-light;
-    c
-
-    button {
-        background-color: #dddddd;
-        color: #000;
-        &:hover {
-            background-color: #bebdbd;
-        }
-    }
-}
-
-// dark mode
-.darkmode {
-    background-color: $base-color-dark;
-    color: $text-color-dark;
-
-    button {
-        background-color: #333333;
-        color: $text-color-dark;
-        &:hover {
-            background-color: #555555;
-        }
-    }
-    #logg {
-        background-color: #1a2432;
-    }
-    .meny_topp {
-        background-color: $navbar-background-dark;
-    }
-
-    #hjemknapp {
-        background-color: $navbar-button-dark;
-        color: $text-color-dark;
-        &:hover {
-            background-color: $navbar-button-dark-hover;
-        }
-    }
-
-    #social {
-        color: $text-color-dark;
-        &:hover {
-            background-color: $navbar-button-dark-hover;
-        }
-    }
-
-    .meny_topp_høyre {
-        background-color: $navbar-button-dark;
-            button {
-                background-color: $navbar-button-dark;
-                color: $text-color-dark;
-                &:hover {
-                    background-color: $navbar-button-dark;
-                }
-                &:active {
-                    background-color: lighten($navbar-button-dark, 20%);
-                }
-            }
-    }
-
 }
 
 // Side-bar
