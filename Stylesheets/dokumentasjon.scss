@@ -154,7 +154,7 @@ button {
                 background-color: $navbar-button-dark;
                 color: $text-color-dark;
                 &:hover {
-                    background-color: $navbar-button-dark;
+                    background-color: $navbar-button-dark-hover;
                 }
                 &:active {
                     background-color: lighten($navbar-button-dark, 20%);

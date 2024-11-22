@@ -2,11 +2,11 @@
 .lightmode {
   background-color: #F0F8FF;
 }
-.lightmode c button {
+.lightmode button {
   background-color: #dddddd;
   color: #000;
 }
-.lightmode c button:hover {
+.lightmode button:hover {
   background-color: #bebdbd;
 }
 
@@ -29,9 +29,11 @@
 }
 .darkmode #hjemknapp {
   background-color: #364c69;
+}
+.darkmode #hjemknapp button {
   color: #f8f8f8;
 }
-.darkmode #hjemknapp:hover {
+.darkmode #hjemknapp button:hover {
   background-color: #425d80;
 }
 .darkmode #social {
@@ -48,22 +50,12 @@
   color: #f8f8f8;
 }
 .darkmode .meny_topp_høyre button:hover {
-  background-color: #364c69;
+  background-color: #425d80;
 }
 .darkmode .meny_topp_høyre button:active {
   background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: #F0F8FF;
-    color: black;
-  }
-  @font-face {
-    font-family: HackFont;
-    src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
-  }
-}
 /* Navigation bar */
 .meny_topp {
   background-color: rgb(225, 237, 248);
@@ -115,7 +107,7 @@
 .meny_topp_høyre button {
   background-color: #F0F8FF;
   border-radius: 20px;
-  color: #111528 !important;
+  color: #111528;
 }
 .meny_topp_høyre button:hover {
   background-color: rgb(204, 212, 219);
@@ -270,7 +262,7 @@ button:active {
     color: #f8f8f8;
   }
   .meny_topp_høyre button:hover {
-    background-color: #364c69;
+    background-color: #425d80;
   }
   .meny_topp_høyre button:active {
     background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
