@@ -16,11 +16,14 @@
   color: #f8f8f8;
 }
 .darkmode button {
-  background-color: #333333;
+  background-color: #364c69;
   color: #f8f8f8;
 }
 .darkmode button:hover {
-  background-color: #555555;
+  background-color: #425d80;
+}
+.darkmode button:active {
+  background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
 }
 .darkmode #logg {
   background-color: #1a2432;
@@ -160,10 +163,8 @@ button {
   text-decoration: none;
   font-weight: bolder;
   color: #000;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
-
 button:hover {
   border-radius: 10px;
   transition: 0.5s;
@@ -171,7 +172,6 @@ button:hover {
   border-radius: 12px;
   transform: scale(1.1);
 }
-
 button:active {
   background-color: #009578;
   transition: 0.5s;
@@ -182,7 +182,6 @@ button:active {
   column-count: 5;
   column-gap: 5px;
 }
-
 #gallery img {
   width: 100% !important;
   height: auto !important;

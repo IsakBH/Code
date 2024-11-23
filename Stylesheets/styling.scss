@@ -47,35 +47,31 @@ button {
     text-decoration: none;
     font-weight: bolder;
     color: #000;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-button:hover {
-    border-radius: 10px;
-    transition: 0.5s;
-    background-color: #bebdbd;
-    border-radius: 12px;
-    transform: scale(1.1);
-}
-
-button:active {
-    background-color: #009578;
-    transition: 0.5s;
+    margin: 0 auto;
+    &:hover {
+        border-radius: 10px;
+        transition: 0.5s;
+        background-color: #bebdbd;
+        border-radius: 12px;
+        transform: scale(1.1);
+    }
+    &:active {
+        background-color: #009578;
+        transition: 0.5s;
+    }
 }
 
 #gallery {
     line-height: 0;
     column-count: 5;
     column-gap: 5px;
-}
-
-#gallery img {
-    width: 100% !important;
-    height: auto !important;
-    border-radius: 5px;
-    margin-top: 5px;
-    filter: brightness(1);
+        img {
+            width: 100% !important;
+            height: auto !important;
+            border-radius: 5px;
+            margin-top: 5px;
+            filter: brightness(1);
+        }
 }
 
 #galleribilde:hover {
@@ -83,7 +79,6 @@ button:active {
     filter: brightness(1.2);
     z-index: 1;
 }
-
 
 .advarsel {
     color: #009578;

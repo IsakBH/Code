@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Sist oppdatert: 22. November 2024 | Av: isakbh */
 .lightmode {
   background-color: #F0F8FF;
 }
@@ -15,11 +16,14 @@
   color: #f8f8f8;
 }
 .darkmode button {
-  background-color: #333333;
+  background-color: #364c69;
   color: #f8f8f8;
 }
 .darkmode button:hover {
-  background-color: #555555;
+  background-color: #425d80;
+}
+.darkmode button:active {
+  background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
 }
 .darkmode #logg {
   background-color: #1a2432;

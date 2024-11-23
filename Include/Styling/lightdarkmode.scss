@@ -17,10 +17,13 @@
     color: $text-color-dark;
 
     button {
-        background-color: #333333;
+        background-color: $navbar-button-dark;
         color: $text-color-dark;
         &:hover {
-            background-color: #555555;
+            background-color: $navbar-button-dark-hover;
+        }
+        &:active {
+            background-color: lighten($navbar-button-dark, 20%);
         }
     }
     #logg {
