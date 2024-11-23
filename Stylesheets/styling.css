@@ -1,4 +1,63 @@
 @charset "UTF-8";
+/* Sist oppdatert: 22. November 2024 | Av: isakbh */
+.lightmode {
+  background-color: #F0F8FF;
+}
+.lightmode button {
+  background-color: #dddddd;
+  color: #000;
+}
+.lightmode button:hover {
+  background-color: #bebdbd;
+}
+
+.darkmode {
+  background-color: #070b1d;
+  color: #f8f8f8;
+}
+.darkmode button {
+  background-color: #333333;
+  color: #f8f8f8;
+}
+.darkmode button:hover {
+  background-color: #555555;
+}
+.darkmode #logg {
+  background-color: #1a2432;
+}
+.darkmode .meny_topp {
+  background-color: #29394f;
+}
+.darkmode #hjemknapp {
+  background-color: #364c69;
+  color: #f8f8f8;
+}
+.darkmode #hjemknapp:hover {
+  background-color: #425d80;
+}
+.darkmode #hjemknapp:active {
+  background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
+}
+.darkmode #social {
+  color: #f8f8f8;
+}
+.darkmode #social:hover {
+  background-color: #425d80;
+}
+.darkmode .meny_topp_høyre {
+  background-color: #364c69;
+}
+.darkmode .meny_topp_høyre button {
+  background-color: #364c69;
+  color: #f8f8f8;
+}
+.darkmode .meny_topp_høyre button:hover {
+  background-color: #425d80;
+}
+.darkmode .meny_topp_høyre button:active {
+  background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
+}
+
 /* Navigation bar */
 .meny_topp {
   background-color: rgb(225, 237, 248);
@@ -13,13 +72,16 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: aliceblue;
-  color: #111528 !important;
+  background-color: #F0F8FF;
+  color: #111528;
   border-radius: 50px;
   font-size: 1em;
 }
 #hjemknapp:hover {
   background-color: rgb(204, 212, 219);
+}
+#hjemknapp:active {
+  background-color: rgb(138, 200.4, 255);
 }
 
 #social {
@@ -42,12 +104,12 @@
   right: 0;
   border-radius: 50px;
   font-size: 1em;
-  background-color: aliceblue;
+  background-color: #F0F8FF;
 }
 .meny_topp_høyre button {
-  background-color: aliceblue;
+  background-color: #F0F8FF;
   border-radius: 20px;
-  color: #111528 !important;
+  color: #111528;
 }
 .meny_topp_høyre button:hover {
   background-color: rgb(204, 212, 219);
@@ -184,11 +246,6 @@ button:active {
     opacity: 1;
   }
 }
-.light-mode {
-  background-color: aliceblue;
-  color: black;
-}
-
 @media only screen and (max-width: 1000px) {
   #about {
     display: block;
@@ -238,42 +295,55 @@ button:active {
     filter: brightness(1);
   }
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: white;
-  }
-  .meny_topp {
-    background-color: aliceblue;
-  }
-}
 @media (prefers-color-scheme: light) {
   body {
     background-color: aliceblue;
     color: black;
   }
-  @font-face {
-    font-family: HackFont;
-    src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #070b1d;
+    color: #f8f8f8;
   }
-  div.gallery {
-    border-color: black;
-  }
-  div.gallery div.gallery:hover {
-    border: 5px solid black;
-  }
-  .light-mode {
+  button {
     background-color: #333333;
-    color: aliceblue;
+    color: #f8f8f8;
+  }
+  button:hover {
+    background-color: #555555;
+  }
+  #logg {
+    background-color: #1a2432;
   }
   .meny_topp {
-    background-color: rgb(225, 237, 248);
+    background-color: #29394f;
   }
-  #bio {
-    display: flex;
-    padding: 0 8px;
-    width: 50%;
-    margin: 0 auto;
+  #hjemknapp {
+    background-color: #364c69;
+    color: #f8f8f8;
+  }
+  #hjemknapp:hover {
+    background-color: #425d80;
+  }
+  #social {
+    color: #f8f8f8;
+  }
+  #social:hover {
+    background-color: #425d80;
+  }
+  .meny_topp_høyre {
+    background-color: #364c69;
+  }
+  .meny_topp_høyre button {
+    background-color: #364c69;
+    color: #f8f8f8;
+  }
+  .meny_topp_høyre button:hover {
+    background-color: #425d80;
+  }
+  .meny_topp_høyre button:active {
+    background-color: rgb(90.5660377358, 125.0188679245, 170.4339622642);
   }
 }
 

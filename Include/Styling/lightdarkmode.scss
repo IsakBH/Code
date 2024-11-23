@@ -32,12 +32,13 @@
 
     #hjemknapp {
         background-color: $navbar-button-dark;
-            button {
-                color: $text-color-dark;
-                &:hover {
-                    background-color: $navbar-button-dark-hover;
-                }
-            }
+        color: $text-color-dark;
+        &:hover {
+            background-color: #425d80;
+        }
+        &:active {
+            background-color: lighten($navbar-button-dark, 20%);
+        }
     }
 
     #social {

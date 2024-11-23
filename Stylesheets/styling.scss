@@ -1,8 +1,9 @@
-// Farger
-@import "../Include/farger.scss";
+//----------***STYLING.SCSS***----------//
+/* Sist oppdatert: 22. November 2024 | Av: isakbh */
 
-// Nav-bar styling
-@import "../Include/navbar.scss";
+@import "../Include/Styling/farger.scss"; // importer farger fra farger.scss
+@import "../Include/Styling/lightdarkmode.scss"; // importer light og dark mode styling
+@import "../Include/Styling/navbar.scss"; // importer nav-bar styling
 
 /* Essentials */
 * {
@@ -135,11 +136,6 @@ button:active {
     }
 }
 
-.light-mode {
-    background-color: aliceblue;
-    color: black;
-}
-
 @media only screen and (max-width: 1000px) {
     #about {
         display: block;
@@ -198,49 +194,59 @@ button:active {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212;
-        color: white;
-    }
-
-    .meny_topp {
-        background-color: aliceblue;
-    }
-}
-
+// automatisk sjekk på den foretrukne fargetema
 @media (prefers-color-scheme: light) {
     body {
         background-color: aliceblue;
         color: black;
     }
+}
 
-    @font-face {
-        font-family: HackFont;
-        src: url(Hack-v3.003-ttf/ttf/Hack-Regular.ttf);
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $base-color-dark;
+        color: $text-color-dark;
+    }
+    button {
+        background-color: #333333;
+        color: $text-color-dark;
+        &:hover {
+            background-color: #555555;
+        }
+    }
+    #logg {
+        background-color: #1a2432;
+    }
+    .meny_topp {
+        background-color: $navbar-background-dark;
     }
 
-    div.gallery {
-        border-color: black;
-
-        div.gallery:hover {
-            border: 5px solid black;
+    #hjemknapp {
+        background-color: $navbar-button-dark;
+        color: $text-color-dark;
+        &:hover {
+            background-color: $navbar-button-dark-hover;
         }
     }
 
-    .light-mode {
-        background-color: #333333;
-        color: aliceblue;
+    #social {
+        color: $text-color-dark;
+        &:hover {
+            background-color: $navbar-button-dark-hover;
+        }
     }
 
-    .meny_topp {
-        background-color: rgb(225, 237, 248);
-    }
-
-    #bio {
-        display: flex;
-        padding: 0 8px;
-        width: 50%;
-        margin: 0 auto;
-    }
+    .meny_topp_høyre {
+        background-color: $navbar-button-dark;
+            button {
+                background-color: $navbar-button-dark;
+                color: $text-color-dark;
+                &:hover {
+                    background-color: $navbar-button-dark-hover;
+                }
+                &:active {
+                    background-color: lighten($navbar-button-dark, 20%);
+                }
+            }
+        }
 }
