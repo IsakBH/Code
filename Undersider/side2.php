@@ -48,7 +48,7 @@
             teste mine egne ferdigheter, og samtidig for bruk til visse søknader eller en CV.</p>
 
         <div id="videoembeds">
-            <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/AtLctpjgTqQ?si=CWfkaCYg7t_3gDpZ"
+            <iframe id="youtube" src="https://www.youtube.com/embed/AtLctpjgTqQ?si=CWfkaCYg7t_3gDpZ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
