@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Sist oppdatert: 22. November 2024 | Av: isakbh */
+/* Sist oppdatert: 27. November 2024 | Av: isakbh */
 .lightmode {
   background-color: #F0F8FF;
 }
@@ -46,6 +47,16 @@
 }
 .darkmode #social:hover {
   background-color: #425d80;
+}
+.darkmode #youtube {
+  aspect-ratio: 16/9;
+  width: 50%;
+  border-radius: 12px;
+  margin-top: 100px;
+  filter: drop-shadow(-8px 8px 20px black);
+}
+.darkmode #youtube:hover {
+  transform: scale(1.025);
 }
 .darkmode .meny_topp_høyre {
   background-color: #364c69;

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Sist oppdatert: 22. November 2024 | Av: isakbh */
+/* Sist oppdatert: 27. November 2024 | Av: isakbh */
 .lightmode {
   background-color: #F0F8FF;
 }
@@ -134,6 +134,7 @@ html {
   padding: 0;
   animation: fadeIn 3s;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -241,7 +242,8 @@ button:active {
   aspect-ratio: 16/9;
   width: 90%;
   border-radius: 12px;
-  filter: drop-shadow(8px -8px 10px gray);
+  margin-top: 100px;
+  filter: drop-shadow(-8px 8px 20px black);
 }
 #youtube:hover {
   transform: scale(1.025);
