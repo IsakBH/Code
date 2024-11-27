@@ -241,10 +241,10 @@ button:active {
   aspect-ratio: 16/9;
   width: 90%;
   border-radius: 12px;
+  filter: drop-shadow(8px -8px 10px gray);
 }
 #youtube:hover {
   transform: scale(1.025);
-  text-shadow: 10px;
 }
 
 /* CSS Fade In Animation*/

@@ -125,9 +125,9 @@ button {
     aspect-ratio: 16 / 9;
     width: 90%;
     border-radius: 12px;
+    filter: drop-shadow(8px -8px 10px gray);
     &:hover {
         transform: scale(1.025);
-        text-shadow: 10px;
     }
 }
 
