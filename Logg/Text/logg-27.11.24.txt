@@ -1,0 +1,31 @@
+    <h3>
+    Hva har jeg gjort denne timen?
+    </h3>
+
+    <p>
+    I denne timen har jeg jobbet med å style side 2 for å bli mobile friendly. Jeg har også forbedret YouTube video embedden jeg har der til å se finere ut, med avrundet hjørner og dropshadow. Jeg bruker fortsatt SCSS, som jeg snakket litt om i den forrige loggen. En av favoritt funksjonene mine fra SCSS er @include. Med @include kan du hente styling fra andre dokumenter, som er veldig nyttig for å holde dokumentet oversiktlig. Akkurat nå har jeg 3 forskjellige SCSS include filer, en er for farger, som inneholder farge variabler (variabler er også en nydelig funksjon i SCSS) som jeg bruker overalt, en for light og dark mode styling, og en for nav-bar styling. Med disse include filene, har den ene stylesheeten min gått fra 400 til 200 linjer. Dette gjør det også lettere for meg å konvertere CSSen min til SCSS, fordi jeg må skrive mindre og mindre for flere include filer jeg lager. Hvis jeg har noe styling jeg bare skal bruke på èn side, lager jeg jo selvfølgelig ikke en egen include fil bare for den, men når det er ting jeg bruker om og om igjen, er det VELDIG deilig med en include fil. Include er ikke bare en feature i SCSS, ganske sikker på at du har noe lignende i hvert eneste programmeringsspråk som finnes. Jeg bruker faktisk PHP include for å vise denne .txt filen på nettsiden, det har også hjulpet meg veldig. <br> Igjen, som jeg skrev forrige gang, synes jeg at den beste koden er den du ikke skriver.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har jobbet
+    </h3>
+
+    <p>
+    Jeg har ikke jobbet kjempe effektivt pga. masse distraksjoner og lyder rundt i klasserommet, men jeg har fortsatt jobbet. I starten av timen begynte jeg med litt eksperimentering av styling av YouTube embeds. Det var ganske gøy. Etter det begynte jeg å leke litt med dropshadow filteret, som også var ganske gøy. FORTSETT SENERE
+
+    Jeg føler jeg har jobbet veldig bra og effektivt. Jeg har gjort det jeg skulle, og har oppnåd målene mine for timen. I starten av timen leste jeg meg opp på SCSS (forkortelse for 'Sassy Cascading Style Sheet'), og etter det lastet jeg det ned, installerte det, og begynte å leke litt med det. Jeg synes det er veldig bra, og ser litt finere ut enn CSS (pga variabler, mix-ins, osv)
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har hentet informasjonen min
+    </h3>
+
+    <p>
+    Jeg har hentet informasjonen min hovedsaklig fra
+    <a href="https://sass-lang.com/documentation">Sass-lang</a>
+    , men også litt fra Reddit og Stackoverflow. All informasjonen jeg har hentet har vært dokujmentasjon og guides for SCSS.
+    </p>
