@@ -181,6 +181,7 @@ button:active {
   line-height: 0;
   column-count: 5;
   column-gap: 5px;
+  z-index: 0;
 }
 #gallery img {
   width: 100% !important;
@@ -193,7 +194,7 @@ button:active {
 #galleribilde:hover {
   transform: scale(1.1);
   filter: brightness(1.2);
-  z-index: 1;
+  z-index: 100000000000000000;
 }
 
 .advarsel {
