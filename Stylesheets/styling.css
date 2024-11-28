@@ -145,7 +145,7 @@ html {
   text-align: center;
   margin: 0;
   padding: 0;
-  animation: fadeIn 3s;
+  animation: animate-glow 1s;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -254,6 +254,10 @@ button:active {
 }
 
 #youtube {
+  margin-top: 100px;
+}
+
+#youtube {
   transition: 0.2s ease-out;
   aspect-ratio: 16/9;
   width: 90%;
@@ -273,6 +277,18 @@ button:active {
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes animate-glow {
+  0% {
+    opacity: 0;
+    filter: brightness(3) saturate(3);
+    transform: scale(0.8, 0.8);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1) saturate(1);
+    transform: scale(1, 1);
   }
 }
 @media only screen and (max-width: 1000px) {
