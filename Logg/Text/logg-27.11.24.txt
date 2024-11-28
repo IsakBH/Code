@@ -13,9 +13,17 @@
     </h3>
 
     <p>
-    Jeg har ikke jobbet kjempe effektivt pga. masse distraksjoner og lyder rundt i klasserommet, men jeg har fortsatt jobbet. I starten av timen begynte jeg med litt eksperimentering av styling av YouTube embeds. Det var ganske gøy. Etter det begynte jeg å leke litt med dropshadow filteret, som også var ganske gøy. FORTSETT SENERE
+    Jeg har ikke jobbet kjempe effektivt pga. masse distraksjoner og lyder rundt i klasserommet, men jeg har fortsatt jobbet. I starten av timen begynte jeg med litt eksperimentering av styling av YouTube embeds. Det var ganske gøy. Etter det begynte jeg å leke litt med dropshadow filteret, som også var ganske gøy.
+    </p>
 
-    Jeg føler jeg har jobbet veldig bra og effektivt. Jeg har gjort det jeg skulle, og har oppnåd målene mine for timen. I starten av timen leste jeg meg opp på SCSS (forkortelse for 'Sassy Cascading Style Sheet'), og etter det lastet jeg det ned, installerte det, og begynte å leke litt med det. Jeg synes det er veldig bra, og ser litt finere ut enn CSS (pga variabler, mix-ins, osv)
+    <br> <br>
+
+    <h3>
+    Utfordringer
+    </h3>
+
+    <p>
+    Den eneste utfordringen jeg hadde denne timen var at det var en @media query som ikke fungerte ordentlig med drop-shadow. Har ikke funnet ut av det enda, men jeg er ganske sikker på at det bare er en liten syntax feil et eller annet sted. SCSS er litt mer streng på syntax enn vanlig CSS.
     </p>
 
     <br> <br>
@@ -25,7 +33,7 @@
     </h3>
 
     <p>
-    Jeg har hentet informasjonen min hovedsaklig fra
+    Jeg har hentet informasjonen min fra
     <a href="https://sass-lang.com/documentation">Sass-lang</a>
-    , men også litt fra Reddit og Stackoverflow. All informasjonen jeg har hentet har vært dokujmentasjon og guides for SCSS.
+     og  Stackoverflow. Informasjonen jeg hentet var dokumentasjon for SCSS.
     </p>

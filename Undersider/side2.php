@@ -37,16 +37,12 @@
     </div>
 
     <button onclick="location.href = '/index.php';" id="knapp" class="float-left submit-button">Om meg</button>
+    <button id="knapp" onclick="location.href= 'Skoleprosjekter/index.php'">Skole prosjekter</button>
     </div>
 
     <hr>
 
     <div class="etteroverst">
-
-        <h3> Hei! Jeg heter Isak. </h3>
-        <p id="videotekst"> Jeg går på Vg1 Informasjonsteknologi og Medieproduksjon på Amalieskram VGS. Jeg lager denne nettsiden for å
-            teste mine egne ferdigheter, og samtidig for bruk til visse søknader eller en CV.</p>
-
         <div id="videoembeds">
             <iframe id="youtube" src="https://www.youtube.com/embed/AtLctpjgTqQ?si=CWfkaCYg7t_3gDpZ"
                 title="YouTube video player" frameborder="0"
@@ -57,7 +53,6 @@
 
     <hr>
 
-    <button id="knapp" onclick="location.href= 'Skoleprosjekter/index.php'">Skole prosjekter</button>
 
     <!
         --- Ionic icons -->

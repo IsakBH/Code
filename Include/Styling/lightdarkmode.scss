@@ -55,13 +55,15 @@
     }
 
     #youtube {
+        transition: 0.2s ease-out;
         aspect-ratio: 16 / 9;
-        width: 50%;
+        width: 90%;
         border-radius: 12px;
         margin-top: 100px;
-        filter: drop-shadow(-8px 8px 20px black);
+        filter: drop-shadow(0 0 20px white);
         &:hover {
             transform: scale(1.025);
+            filter: drop-shadow(0 0 50px white);
         }
     }
 
