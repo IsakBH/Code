@@ -1,0 +1,37 @@
+    <h3>
+    Hva har jeg gjort denne timen?
+    </h3>
+
+    <p>
+    Denne timen har jeg lest om og jobbet med mer fancy animasjoner. Jeg har også funnet et par bugs med stylingen relatert til den automatiske sjekken for fargetemaet brukeren har valgt som default  i nettleseren. Problemet er at den automatiske dark-moden er utdatert og mye værre enn den manuelle dark-moden fra knappen oppe i høyre hjørne. Dette er en veldig lett fiks, men jeg har bare ikke giddet. Det står på to-do listen min. Hvis du går inn på <a href="https://isak.brunhenriksen.no/Undersider/side2.php">side 2</a>, ser du at det er en animasjon når du kommer innpå siden. Det er en "animated entrance" animasjon, som er en... animated entrance (whaaat?!). Når jeg kommer hjem fra skolen, skal jeg sette meg ned og endelig gjøre ferdig de issues-ene jeg ikke har giddet å gjøre fordi de er kjedelig. Det inkluderer dark-mode problemet jeg nevnte tidligere. Nettsiden kommer til å føles så mye bedre ut når jeg er ferdig. Det kommer til å føles ut som en ganske "fleshed out" side.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har jobbet
+    </h3>
+
+    <p>
+    Denne timen har jeg jobbet veldig effektivt. Jeg har sett på en del andre sider for inspirasjon for animasjoner, og har lagd en ganske fin en (i min mening). Jeg har fikset @media query problemet jeg nevnte som en utfordring i forrige logg, som var en veldig lett fiks. Det var bare en liten syntaksfeil.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Utfordringer
+    </h3>
+
+    <p>
+    Jeg har egentlig ikke hatt noen utfordringer denne timen, alt har gått veldig greit.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har hentet informasjonen min
+    </h3>
+
+    <p>
+    Jeg har hentet informasjonen min fra Stackoverflow.
+    </p>
