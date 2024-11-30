@@ -29,6 +29,16 @@
     <br> <br>
 
     <h3>
+    Hvilke tilbakemeldinger fikk jeg av Tobias?
+    </h3>
+
+    <p>
+    De konstruktive tilbakemeldingene  om at jeg måtte fikse mobilstøtten på nav-baren, og at jeg måtte få på plass de same animasjonene på alle sidene. Begge de to driver jeg med. Den positive tilbakemeldingen jeg fikk var at siden så fin ut, og at animasjonene passet bra.
+    </p>
+
+    <br> <br>
+
+    <h3>
     Hvordan jeg har hentet informasjonen min
     </h3>
 
