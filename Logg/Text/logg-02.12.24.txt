@@ -1,0 +1,37 @@
+    <h3>
+    Hva har jeg gjort denne timen?
+    </h3>
+
+    <p>
+    Denne timen har jeg gjort oppgaver hvor vi skulle finne feilen i forskjellige kodefiler. Det var både HTML, CSS, og Javascript filer. Det var ganske gøy, og vi fant alle feilene ganske raskt. Etter det fortsatte jeg med arbeidet mitt med SCSS og har forbedret stylingen. Nå jobber jeg med å få portet over den nye fancy stylingen til de andre sidene mine, som har blitt ganske "neglected" etter hvert. Etter jeg er ferdig med det, skal jeg fortsette med å gjøre nav-baren mobile-friendly, som endelig gjør meg ferdig med mobil versjonen av siden. Jeg kommer til å gjøre det meste av dette hjemme. Jeg har laget en ny include fil som heter "base.scss," som jeg skal bruke til å lettere importere viktige greier som animasjoner, @media queries, osv. Ting jeg bruker/trenger på hver eneste side.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har jobbet
+    </h3>
+
+    <p>
+    Denne timen har jeg jobbet effektivt. Jeg ble ferdig med oppgavene jeg snakket om i sted ganske raskt, og begynte med en gang på ordentlig  arbeid på nettsiden. (mener ikke at oppgavene ikke er ordentlig arbeid)
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Utfordringer
+    </h3>
+
+    <p>
+    Eneste utfordringen denne timen var å finne feilene i den oppgaven.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har hentet informasjonen min
+    </h3>
+
+    <p>
+    Hjernen min. Har ikke hentet noe fra nettet.
+    </p>

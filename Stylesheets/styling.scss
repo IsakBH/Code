@@ -1,9 +1,10 @@
 //----------***STYLING.SCSS***----------//
-/* Sist oppdatert: 27. November 2024 | Av: isakbh */
+/* Sist oppdatert: 2. Desember  2024 | Av: isakbh */
 
 @import "../Include/Styling/farger.scss"; // importer farger fra farger.scss
 @import "../Include/Styling/lightdarkmode.scss"; // importer light og dark mode styling
 @import "../Include/Styling/navbar.scss"; // importer nav-bar styling
+@import "../Include/Styling/base.scss"; // importerer base styling
 
 /* Essentials */
 * {
@@ -11,8 +12,7 @@
     transition: 0.25s !important;
 }
 
-html {
-    color: #f5f5f5;
+html { // color: #f5f5f5
     text-align: center;
     margin: 0;
     padding: 0;
@@ -125,10 +125,6 @@ button {
 }
 
 #youtube {
-    margin-top: 100px;
-}
-
-#youtube {
     transition: 0.2s ease-out;
     aspect-ratio: 16 / 9;
     width: 90%;
@@ -139,30 +135,6 @@ button {
         transform: scale(1.025);
         filter: drop-shadow(0px 0px 50px black);
     }
-}
-
-/* CSS Fade In Animation*/
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes animate-glow {
-  0% {
-    opacity: 0;
-    filter: brightness(2);
-    transform: scale(0.8, 0.8);
-  }
-  100% {
-    opacity: 1;
-    filter: brightness(1);
-    transform: scale(1, 1);
-  }
 }
 
 @media only screen and (max-width: 1000px) {

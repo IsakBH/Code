@@ -1,0 +1,25 @@
+//----------***BASE.SCSS***----------//
+/* Sist oppdatert: 2. Desember  2024 | Av: isakbh */
+
+/* CSS Fade In Animation*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animate-glow {
+  0% {
+    opacity: 0;
+    filter: brightness(2);
+    transform: scale(0.8, 0.8);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1);
+    transform: scale(1, 1);
+  }
+}
