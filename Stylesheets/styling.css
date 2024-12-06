@@ -185,6 +185,7 @@ button:active {
 * {
   font-family: HackFont, Helvetica, Arial, sans-serif;
   transition: 0.25s !important;
+  scroll-behavior: smooth;
 }
 
 html {

@@ -17,6 +17,7 @@ include("../Include/HTML/navbar.html");
 <body>
     <div class="content">
         <div class="sidebar">
+            <a href="#6.12.24">6.12.24</a>
             <a href="#2.12.24">2.12.24</a>
             <a href="#28.11.24">28.11.24</a>
             <a href="#27.11.24">27.11.24</a>
@@ -24,6 +25,12 @@ include("../Include/HTML/navbar.html");
             <a href="#dokumentasjon">Dokumentasjon</a>
         </div>
         <div id="logg">
+            <h2 id="6.12.24">Fredag 6.12.24 (dobbeltime) </h2>
+            <?php
+            include("../Logg/Text/logg-06.12.24.txt");
+            ?>
+            <br> <hr> <br>
+
             <h2 id?="2.12.24">Mandag 2.12.24 (dobbeltime) </h2>
             <?php
             include("../Logg/Text/logg-02.12.24.txt");

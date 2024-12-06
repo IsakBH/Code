@@ -1,0 +1,36 @@
+    <h3>
+    Hva har jeg gjort denne timen?
+    </h3>
+
+    <p>
+    Denne timen har jeg et par styling problemer jeg hadde på leke siden, og har portet over det nye styling formatet mitt med SCSS til 'om meg' siden. Det vil si at all styling nå er helt uniform med hverandre. Det eneste jeg må se på er engelsk blogg siden, men den er vi egentlig ferdig med så det er ikke så viktig (men jeg skal fortsatt gjøre det.) Jeg har ikke vært særlilg effektiv med arbeid på nettsiden i det siste, og det er fordi jeg har begynt å bli litt lei. Jeg har jobbet med nettsiden alt for mye (flere timer både hjemme og på skolen), og prøver å jobbe litt mindre med den. Har bestemt meg for å jobbe mindre hjemme og mer på skolen, som har vært ganske nice. Nå, etter en liten pause fra masse arbeid, har det begynt å bli litt gøyere å jobbe med nettsiden igjen. Jeg skal få jobbet litt mer med den, har bare vært litt lat i det siste.
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har jobbet
+    </h3>
+
+    <p>
+    Denne timen har jeg jobbet ganske effektivt. Jeg er endelig ferdig med å fikse styling greier. Jeg fikk også et lite tips av Tobias, om å legge til "scroll-behavior: smooth;" i stylingen, som gjør scrollingen på anchor linkene veldig smooth og fin. Du kan sjekke det selv ved å trykke på de blåe knappene til venstre for denne teksten. Jeg hjalp han også med noen problemer han hadde med animasjoner på siden sin. Vet ikke hvor du skal se de, men de er på <a href="https://unicfoxx.github.io/Website-Hub/">siden hans.</a>
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Utfordringer
+    </h3>
+
+    <p>
+    Har ikke hatt noen utfordringer denne timen.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har hentet informasjonen min
+    </h3>
+
+    <p>
+    Hjernen min og Tobias Litlere (det jeg snakket om tidligere)
+    </p>
