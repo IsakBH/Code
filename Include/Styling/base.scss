@@ -1,5 +1,5 @@
 //----------***BASE.SCSS***----------//
-/* Sist oppdatert: 2. Desember  2024 | Av: isakbh */
+/* Sist oppdatert: 6. Desember  2024 10:04 | Av: isakbh */
 
 /* CSS Fade In Animation*/
 @keyframes fadeIn {
@@ -22,4 +22,30 @@
     filter: brightness(1);
     transform: scale(1, 1);
   }
+}
+
+// STYLING AV KNAPPER
+button {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    background-color: #dddddd;
+    cursor: pointer;
+    position: relative;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+    margin: 0 auto;
+    &:hover {
+        border-radius: 10px;
+        transition: 0.5s;
+        background-color: #bebdbd;
+        border-radius: 12px;
+        transform: scale(1.1);
+    }
+    &:active {
+        background-color: #009578;
+        transition: 0.5s;
+    }
 }
