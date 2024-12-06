@@ -1,10 +1,24 @@
 //----------***STYLING2.SCSS***----------//
-/* Sist oppdatert: 6. Desember  2024 10:44 | Av: isakbh */
+/* Sist oppdatert: 6. Desember  2024 10:59 | Av: isakbh */
 
 @import "../Include/Styling/farger.scss"; // importer farger fra farger.scss
 @import "../Include/Styling/lightdarkmode.scss"; // importer light og dark mode styling
 @import "../Include/Styling/navbar.scss"; // importer nav-bar styling
 @import "../Include/Styling/base.scss"; // importerer base styling
+
+/* CSS Animation*/
+@keyframes animate-glow {
+  0% {
+    opacity: 0;
+    filter: brightness(2);
+    transform: scale(0.8, 0.8);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1);
+    transform: scale(1, 1);
+  }
+}
 
 /* Essentials */
 * {
@@ -96,17 +110,6 @@ body {
     body {
         background-color: aliceblue;
         color: black;
-    }
-
-    /* CSS Fade In Animation*/
-    @keyframes fadeIn {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
     }
 
     /* Hack font */

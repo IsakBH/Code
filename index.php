@@ -24,8 +24,7 @@ include("Logg/Text/ommeg.txt");
 ?>
 
     <div class="side2knapp">
-        <button onclick="location.href = '/Undersider/side2.php';" id="myButton"
-            class="float-left submit-button">Leke side</button>
+        <button onclick="location.href = '/Undersider/side2.php';">Leke side</button>
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
