@@ -1,0 +1,35 @@
+    <h3>
+    Hva har jeg gjort denne timen?
+    </h3>
+
+    <p>
+    Denne timen har jeg begynt på en rewrite av hele nettsiden, som forhåpentligvis kommer til å kurere meg fra burn-outen min. I de siste ukene har jeg slitt veldig med å få motivasjon og energi til å få jobbet med siden, derfor har det ikke vært så mange oppdateringer på siden i det siste. Jeg synes ikke det er sånn kjempe overaskende, fordi jeg jobet VELDIG mye på siden i starten av skoleåret.
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har jobbet
+    </h3>
+
+    <p>
+    Denne timen har jeg ikke jobbet særlig effektivt i det hele tatt. Jeg har nesten ikke skrevet noe, men jeg har funnet på ideer. Jeg har tenkt til å lage en dropdown der hvor hjem-knappen er nå, som kommer til å hjelpe med å gjøre siden mer oversiktlig. Skal jobbe hjemme.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Utfordringer
+    </h3>
+
+    <p>
+    Eneste utfordringen denne timen var å ikke være lei av static HTML.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har hentet informasjonen min
+    </h3>
+
+    <p>
+    Hjernen min.
+    </p>
