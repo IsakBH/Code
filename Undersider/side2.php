@@ -40,7 +40,7 @@
     <button id="knapp" onclick="location.href= 'Skoleprosjekter/index.php'">Skole prosjekter</button>
     </div>
 
-    <hr>
+
 
     <div class="etteroverst">
         <div id="videoembeds">
@@ -51,11 +51,10 @@
         </div>
     </div>
 
-    <hr>
 
 
-    <!
-        --- Ionic icons -->
+
+    <!--- Ionic icons -->
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 

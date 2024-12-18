@@ -1,0 +1,35 @@
+    <h3>
+    Hva har jeg gjort denne timen?
+    </h3>
+
+    <p>
+    Denne timen har jeg lagt til et Google Maps embed på om meg siden, sånn at folk ser hvor jeg bor. Jeg har også gjort et par justeringer på leke siden, så nå ser den litt finere ut. Jeg fjernet de svarte linjene (hr tags), og la til litt mer padding på YouTube embeden. Jeg og David ga konstruktive tilbakemeldinger til hverandre, og han sa at jeg bør legge til et spill på siden min, fordi det er en del av oppgaveteksten. Jeg har laget stein saks papir, men jeg har ikke funnet ut av hvordan jeg skal få vist det frem på siden, eller, hvordan jeg skal få det til å se fint ut. Men det tar meg 5 minutter å finne ut av hvis jeg er fokusert. I juleferien skal jeg fortsette på rewriten av nettsiden, og det gleder jeg meg litt til. I dag har jeg faktisk hatt det litt gøy når jeg har jobbet, håper det betyr at jeg er kurert fra burnout-en min.
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har jobbet
+    </h3>
+
+    <p>
+    I denne timen har jeg har jobbet ganske effektivt, og har fått gjort det jeg skulle.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Utfordringer
+    </h3>
+
+    <p>
+    Har ikke hatt noen utfordringer denne timen.
+    </p>
+
+    <br> <br>
+
+    <h3>
+    Hvordan jeg har hentet informasjonen min
+    </h3>
+
+    <p>
+    Hjernen min, David og Bent.
+    </p>
